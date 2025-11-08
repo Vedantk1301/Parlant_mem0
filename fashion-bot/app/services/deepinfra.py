@@ -1,4 +1,7 @@
-import os, json, numpy as np, httpx
+import os, numpy as np, httpx
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DI_OPENAI_BASE = "https://api.deepinfra.com/v1/openai"
 DI_INFER_BASE  = "https://api.deepinfra.com/v1/inference"
@@ -17,7 +20,8 @@ async def embed_catalog(texts: list[str]) -> list[list[float]]:
         r.raise_for_status()
         data = r.json()["data"]
     arr = np.asarray([row["embedding"] for row in data], dtype=np.float32)
-    norms = np.linalg.norm(arr, axis=1, keepdims=True); norms[norms==0]=1.0
+    norms = np.linalg.norm(arr, axis=1, keepdims=True)
+    norms[norms==0]=1.0
     return (arr/norms).tolist()
 
 async def rerank_qwen(query: str, docs: list[str], top_k: int = 8) -> list[int]:

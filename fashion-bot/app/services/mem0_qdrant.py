@@ -2,6 +2,9 @@ import os
 from mem0 import Memory
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import VectorParams, Distance, PayloadSchemaType
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def build_mem0_qdrant():
     qdrant_url = os.getenv("QDRANT_URL")
@@ -23,6 +26,7 @@ def build_mem0_qdrant():
         except Exception:
             pass
 
+    # Mem0 uses OpenAI for its memory embeddings (your OpenAI spend).
     mem = Memory.from_config({
         "vector_store": {
             "provider": "qdrant",

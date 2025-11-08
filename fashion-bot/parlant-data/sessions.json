@@ -1,0 +1,2139 @@
+{
+  "metadata": [
+    {
+      "id": "oRcrGTYWQ0",
+      "version": "0.6.0"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "JGZNu3QVIl",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:17.049105+00:00",
+      "customer_id": "guest",
+      "agent_id": "d2yivQvDED",
+      "mode": "auto",
+      "title": "New Conversation",
+      "consumption_offsets": {
+        "client": 0
+      },
+      "agent_states": [
+        {
+          "correlation_id": "RFjl2NzcCzj::process",
+          "applied_guideline_ids": [
+            "r1NGiqCYv3"
+          ],
+          "journey_paths": {}
+        },
+        {
+          "correlation_id": "RKadW4OIXmt::process",
+          "applied_guideline_ids": [
+            "r1NGiqCYv3"
+          ],
+          "journey_paths": {
+            "nePRligpZg": [
+              "2",
+              "3",
+              "3",
+              "4"
+            ]
+          }
+        },
+        {
+          "correlation_id": "RX6YJGquUeW::process",
+          "applied_guideline_ids": [
+            "r1NGiqCYv3",
+            "VP2sIjZmYJ"
+          ],
+          "journey_paths": {
+            "nePRligpZg": [
+              "2",
+              "3",
+              "3",
+              "4",
+              "4",
+              "4"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ObNptjFGGg",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:17.058363+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "customer",
+      "kind": "message",
+      "offset": 0,
+      "correlation_id": "RFjl2NzcCzj",
+      "data": {
+        "message": "HELLO whats your name",
+        "participant": {
+          "id": "guest",
+          "display_name": "Guest"
+        },
+        "flagged": false,
+        "tags": []
+      },
+      "deleted": false
+    },
+    {
+      "id": "o73yPyoCcD",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:17.102584+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 1,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "status": "acknowledged",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "lL7bseVQIB",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:34.160284+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 2,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "yImJySruyX",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:34.919462+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 3,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "message": "Hello!",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        },
+        "tags": [
+          "__preamble__"
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "D4nzC5TiCB",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:34.922463+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 4,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "i6Iq2kNCRK",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:36.831742+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 5,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Interpreting"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "ltK1vvZBiA",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:38.119500+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 6,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Fetching data"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "qZ6EctxmkR",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:42.508605+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 7,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "8DD7swCnQz",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:45.208928+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 8,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "message": "I’m stitched for style, not small talk 😄 — but you can call me MuseBot, your fashion co-pilot! What are you shopping for today, or is there an event you need to dress for?",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "l4baIcYI6h",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:45.211478+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 9,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "4G3JBJoPZy",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:13:45.214481+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 10,
+      "correlation_id": "RFjl2NzcCzj::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "lGfxSB1Cev",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:14:46.945229+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "customer",
+      "kind": "message",
+      "offset": 11,
+      "correlation_id": "RKadW4OIXmt",
+      "data": {
+        "message": "I want something to wear on a date today",
+        "participant": {
+          "id": "guest",
+          "display_name": "Guest"
+        },
+        "flagged": false,
+        "tags": []
+      },
+      "deleted": false
+    },
+    {
+      "id": "ZJ9XAUe7nw",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:14:46.951217+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 12,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "acknowledged",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "hMFhjOSaKd",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:14:52.271181+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 13,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "fvdcuqAgdI",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:14:53.073183+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 14,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "message": "Got it!",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        },
+        "tags": [
+          "__preamble__"
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "EJ2l5LKDN4",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:14:53.076188+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 15,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "C1YSOOWNa1",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:14:54.383192+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 16,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Interpreting"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "ppYXdN8pwk",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:14:55.545957+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 17,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Fetching data"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "zauN4IOPhJ",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:01.722010+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "tool",
+      "offset": 18,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "tool_calls": [
+          {
+            "tool_id": "built-in:analyze_query",
+            "arguments": {
+              "text": "I want something to wear on a date today"
+            },
+            "result": {
+              "data": {
+                "intent": "outfit_advice",
+                "normalized_query": "I want advice on what to wear on a date today.",
+                "subqueries": [],
+                "entities": {},
+                "followups": []
+              },
+              "metadata": {},
+              "control": {},
+              "canned_responses": [],
+              "canned_response_fields": {}
+            }
+          }
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "MtMJzaUykt",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:01.726023+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "tool",
+      "offset": 19,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "tool_calls": [
+          {
+            "tool_id": "built-in:get_trending_items",
+            "arguments": {},
+            "result": {
+              "data": [
+                "Oxford Shirt – White",
+                "Slim Chinos – Navy",
+                "Minimal Sneakers – White",
+                "Crewneck Tee – Black"
+              ],
+              "metadata": {},
+              "control": {},
+              "canned_responses": [],
+              "canned_response_fields": {}
+            }
+          }
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "sAr4Nix6tR",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:02.953953+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 20,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Fetching data"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "wwfhWMogjQ",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:07.543809+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 21,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "7YY8MtcmTY",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:11.281794+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 22,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "message": "Quick style check: Is your date indoors or outdoors? Any dress code or vibe you’re aiming for (casual, smart, romantic)? What’s the weather like, and do you have a favorite color palette or budget in mind? ",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "Dd27aAZeJt",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:11.285789+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 23,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "GsHU8g1ebB",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:11.289301+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 24,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "WMzK6QCymD",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:15.645606+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 25,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "message": "Meanwhile, here are some trending picks: Oxford Shirt – White, Slim Chinos – Navy, Minimal Sneakers – White, Crewneck Tee – Black. Let me know if any of these catch your eye, or if you want a full outfit suggestion once you share those details!",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "qGQcbETR9Q",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:15.649637+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 26,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "OoeZYWyx9U",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:15:15.654166+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 27,
+      "correlation_id": "RKadW4OIXmt::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "d3ALLrZKYK",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:16:44.935234+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "customer",
+      "kind": "message",
+      "offset": 28,
+      "correlation_id": "RX6YJGquUeW",
+      "data": {
+        "message": "I love Black color honestly",
+        "participant": {
+          "id": "guest",
+          "display_name": "Guest"
+        },
+        "flagged": false,
+        "tags": []
+      },
+      "deleted": false
+    },
+    {
+      "id": "2IC843uBKs",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:16:44.942228+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 29,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "acknowledged",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "ERgLHGIlAC",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:16:50.030420+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 30,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "BCNHlrKx6N",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:16:51.411390+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 31,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "message": "Great choice!",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        },
+        "tags": [
+          "__preamble__"
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "pfUj8KRimY",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:16:51.417941+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 32,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "MVwOTwBzhb",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:16:52.987201+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 33,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Interpreting"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "U7FFlYkqXC",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:16:55.082885+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 34,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Fetching data"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "aZ0Y5xxvOe",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:23.483110+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "tool",
+      "offset": 35,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "tool_calls": [
+          {
+            "tool_id": "built-in:analyze_query",
+            "arguments": {
+              "text": "I love Black color honestly"
+            },
+            "result": {
+              "data": "Tool call error",
+              "metadata": {
+                "error_details": "Tool error (tool='analyze_query'): url='http://127.0.0.1:8818', arguments='{'text': 'I love Black color honestly'}', error: "
+              },
+              "control": {},
+              "canned_responses": [],
+              "canned_response_fields": {}
+            }
+          }
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "rTUqptdVG1",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:23.488089+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "tool",
+      "offset": 36,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "tool_calls": [
+          {
+            "tool_id": "built-in:catalog_search",
+            "arguments": {
+              "query": "Black color outfits for a date"
+            },
+            "result": {
+              "data": {
+                "query": "Black color outfits for a date",
+                "items": [
+                  {
+                    "title": "rareism women's janfree black polyester shoulder strap plain sleeveless maxi a-line dress",
+                    "brand": "thehouseofrare",
+                    "category": "evening maxi dresses",
+                    "in_stock": true,
+                    "price_inr": null,
+                    "score": 0.59170765,
+                    "product_id": "thehouseofrare.com#janfree-womens-dress-black"
+                  },
+                  {
+                    "title": "rare rabbit men's loon black cotton graphic print regular fit full sleeve spread collar jacket",
+                    "brand": "thehouseofrare",
+                    "category": "black denim sets",
+                    "in_stock": true,
+                    "price_inr": null,
+                    "score": 0.5929331,
+                    "product_id": "thehouseofrare.com#loon-mens-jacket-black"
+                  },
+                  {
+                    "title": "black knit shirt",
+                    "brand": "nonasties",
+                    "category": "formal evening shirts",
+                    "in_stock": false,
+                    "price_inr": null,
+                    "score": 0.60986495,
+                    "product_id": "www.nonasties.in#black-organic-cotton-full-sleeve-knit-shirt-for-men-online"
+                  },
+                  {
+                    "title": "no fade black hoodie",
+                    "brand": "blakc",
+                    "category": "hoodie & jogger sets",
+                    "in_stock": true,
+                    "price_inr": null,
+                    "score": 0.5925682,
+                    "product_id": "blakc.store#hoodie"
+                  },
+                  {
+                    "title": "rareism women's zelina black polyester round neck striped sleeveless knee length a-line dress",
+                    "brand": "thehouseofrare",
+                    "category": "a-line midi dresses",
+                    "in_stock": true,
+                    "price_inr": null,
+                    "score": 0.58514595,
+                    "product_id": "thehouseofrare.com#zelina-womens-dress-black"
+                  },
+                  {
+                    "title": "black denim co-ord set",
+                    "brand": "hiphopclothingindia",
+                    "category": "black denim sets",
+                    "in_stock": false,
+                    "price_inr": null,
+                    "score": 0.614429,
+                    "product_id": "hiphopclothingindia.com#black-denim-co-ord-set"
+                  },
+                  {
+                    "title": "tuxedo black 2 piece suit",
+                    "brand": "pantproject",
+                    "category": "single-breasted tuxedos",
+                    "in_stock": true,
+                    "price_inr": null,
+                    "score": 0.6346097,
+                    "product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1"
+                  },
+                  {
+                    "title": "stockholm star black 2 piece suit",
+                    "brand": "pantproject",
+                    "category": "black single breasted",
+                    "in_stock": true,
+                    "price_inr": null,
+                    "score": 0.61656255,
+                    "product_id": "pantproject.com#stockholm-star-black-2-piece-suit"
+                  },
+                  {
+                    "title": "men black challenge hoodie",
+                    "brand": "cultstore",
+                    "category": "hoodie & jogger sets",
+                    "in_stock": false,
+                    "price_inr": null,
+                    "score": 0.6028605,
+                    "product_id": "cultstore.com#men-black-challenge-hoodie"
+                  },
+                  {
+                    "title": "black tapered pants",
+                    "brand": "nonasties",
+                    "category": "black chinos",
+                    "in_stock": false,
+                    "price_inr": null,
+                    "score": 0.59362805,
+                    "product_id": "www.nonasties.in#tapered-pants-black"
+                  },
+                  {
+                    "title": "noir drape dress",
+                    "brand": "nonasties",
+                    "category": "short sleeve midi dresses",
+                    "in_stock": false,
+                    "price_inr": null,
+                    "score": 0.5893768,
+                    "product_id": "www.nonasties.in#noir-black-organic-cotton-drape-dress-for-women-online"
+                  },
+                  {
+                    "title": "helsinki heritage dark navy 2 piece suit",
+                    "brand": "pantproject",
+                    "category": "navy single breasted suits",
+                    "in_stock": true,
+                    "price_inr": null,
+                    "score": 0.5851949,
+                    "product_id": "pantproject.com#helsinki-heritage-ark-navy-2-piece-suit"
+                  }
+                ]
+              },
+              "metadata": {},
+              "control": {},
+              "canned_responses": [],
+              "canned_response_fields": {}
+            }
+          }
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "p8u7jLU4mk",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:23.492129+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "tool",
+      "offset": 37,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "tool_calls": [
+          {
+            "tool_id": "built-in:save_preference_to_mem0",
+            "arguments": {
+              "statement": "I love Black color honestly"
+            },
+            "result": {
+              "data": "ok",
+              "metadata": {},
+              "control": {},
+              "canned_responses": [],
+              "canned_response_fields": {}
+            }
+          }
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "d4isbSdchq",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:28.730203+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 38,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Fetching data"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "t4SXLv6aov",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:35.305113+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 39,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "Fxs7kl6vwj",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:40.534765+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 40,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "message": "To lock in the perfect black date look, could you tell me: is your date indoors or outdoors, any dress code or vibe (chill, fancy, romantic), and what’s the weather like? Also, do you have a budget in mind? ",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "2BSKtWuJRL",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:40.545174+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 41,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "eCErQAe3p7",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:40.549143+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 42,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "40a67rtapb",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:44.376956+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 43,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "message": "Meanwhile, here are three black outfit options that could totally steal the show:",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "SRoymxLFkK",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:44.379470+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 44,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "u4XfZcpdQS",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:44.388587+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 45,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "KHIT5Y6mvP",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:47.932461+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 46,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "message": "1. For women: rareism sleeveless black maxi dress – elegant and breezy for a romantic dinner.\n2. For men: rare rabbit black graphic print jacket – adds edge for a casual or artsy date.\n3. For a sharp look: pantproject tuxedo black 2-piece suit – classic and confident for a fancier venue.",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "GcvN0q8NB9",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:47.937479+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 47,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "YxUnSeJifM",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:47.943033+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 48,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "wydWlOGoo8",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:52.481755+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 49,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "message": "Which one’s calling your name, or want to tweak the vibe? Let me know your details and I’ll fine-tune your date-night fit!",
+        "participant": {
+          "id": "d2yivQvDED",
+          "display_name": "MuseBot"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "vVmDDxoKNM",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:52.488831+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 50,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "5mikb9zmui",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-08T07:17:52.492937+00:00",
+      "session_id": "JGZNu3QVIl",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 51,
+      "correlation_id": "RX6YJGquUeW::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    }
+  ],
+  "inspections": [
+    {
+      "id": "Ur23Yvw4wz",
+      "version": "0.6.0",
+      "session_id": "JGZNu3QVIl",
+      "correlation_id": "RFjl2NzcCzj::process",
+      "message_generations": [
+        {
+          "generations": [
+            {
+              "schema_name": "CannedResponseDraftSchema",
+              "model": "openai/gpt-4.1",
+              "duration": 2.697021722793579,
+              "usage": {
+                "input_tokens": 2889,
+                "output_tokens": 301,
+                "extra": {
+                  "cached_input_tokens": 0
+                }
+              }
+            }
+          ],
+          "generation_names": [
+            "draft"
+          ],
+          "messages": [
+            "I’m stitched for style, not small talk 😄 — but you can call me MuseBot, your fashion co-pilot! What are you shopping for today, or is there an event you need to dress for?"
+          ]
+        }
+      ],
+      "preparation_iterations": [
+        {
+          "guideline_matches": [
+            {
+              "guideline_id": "r1NGiqCYv3",
+              "condition": "The customer inquires about something unrelated to fashion, outfits, grooming, or fragrances",
+              "action": "Reply with a brief playful line like: 'I’m stitched for style, not rocket science 😄 — tell me the occasion and vibe, and I’ll dress you right.' Then ask what they’re shopping for or the event they have.",
+              "score": 10,
+              "rationale": "The customer asked for my name, which is unrelated to fashion, outfits, grooming, or fragrances."
+            },
+            {
+              "guideline_id": "Rr5ZAcmtNA",
+              "condition": "on every new customer message",
+              "action": "Call analyze_query(text=<message>). If intent in [product_search, outfit_advice, fragrance]: ask 2–3 short clarifiers if key info is missing (occasion, venue/setting, weather/climate, fit/size, color palette, budget, preferred brands). Then call catalog_search(query=...). Present 3–5 options with a one-line 'why' and price (INR) if available. Finish with a single question to move the convo forward.",
+              "score": 10,
+              "rationale": "The condition is met because the user has sent a new message asking for my name."
+            }
+          ],
+          "tool_calls": [],
+          "terms": [
+            {
+              "id": "8XR3X9lxaV",
+              "name": "Return Policy",
+              "description": "Items can be returned within 14 days if unworn and tagged.",
+              "synonyms": []
+            },
+            {
+              "id": "zgyWRs6Mgb",
+              "name": "Size Guide",
+              "description": "Use the size chart for waist/chest/length measurements.",
+              "synonyms": []
+            },
+            {
+              "id": "eFcqM3ppWw",
+              "name": "Fabric Care",
+              "description": "Care instructions for cotton, wool, leather, and denim.",
+              "synonyms": []
+            }
+          ],
+          "context_variables": [],
+          "generations": {
+            "guideline_match": {
+              "total_duration": 2.781572103500366,
+              "batches": [
+                {
+                  "schema_name": "GenericObservationalGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 2.0436909198760986,
+                  "usage": {
+                    "input_tokens": 3203,
+                    "output_tokens": 66,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.6398327350616455,
+                  "usage": {
+                    "input_tokens": 2863,
+                    "output_tokens": 84,
+                    "extra": {
+                      "cached_input_tokens": 2560
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.633296012878418,
+                  "usage": {
+                    "input_tokens": 2820,
+                    "output_tokens": 90,
+                    "extra": {
+                      "cached_input_tokens": 2560
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.2622556686401367,
+                  "usage": {
+                    "input_tokens": 2847,
+                    "output_tokens": 77,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.6118590831756592,
+                  "usage": {
+                    "input_tokens": 2873,
+                    "output_tokens": 63,
+                    "extra": {
+                      "cached_input_tokens": 0
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.4147529602050781,
+                  "usage": {
+                    "input_tokens": 2797,
+                    "output_tokens": 66,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "JourneyNodeSelectionSchema",
+                  "model": "openai/gpt-4.1",
+                  "duration": 2.7646775245666504,
+                  "usage": {
+                    "input_tokens": 8412,
+                    "output_tokens": 145,
+                    "extra": {
+                      "cached_input_tokens": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "tool_calls": [
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 3.76851749420166,
+                "usage": {
+                  "input_tokens": 5396,
+                  "output_tokens": 381,
+                  "extra": {
+                    "cached_input_tokens": 0
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 2.755504608154297,
+                "usage": {
+                  "input_tokens": 5477,
+                  "output_tokens": 230,
+                  "extra": {
+                    "cached_input_tokens": 0
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "QT2PCshyKz",
+      "version": "0.6.0",
+      "session_id": "JGZNu3QVIl",
+      "correlation_id": "RKadW4OIXmt::process",
+      "message_generations": [
+        {
+          "generations": [
+            {
+              "schema_name": "CannedResponseDraftSchema",
+              "model": "openai/gpt-4.1",
+              "duration": 3.733426809310913,
+              "usage": {
+                "input_tokens": 3457,
+                "output_tokens": 433,
+                "extra": {
+                  "cached_input_tokens": 1024
+                }
+              }
+            }
+          ],
+          "generation_names": [
+            "draft"
+          ],
+          "messages": [
+            "Quick style check: Is your date indoors or outdoors? Any dress code or vibe you’re aiming for (casual, smart, romantic)? What’s the weather like, and do you have a favorite color palette or budget in mind? ",
+            "Meanwhile, here are some trending picks: Oxford Shirt – White, Slim Chinos – Navy, Minimal Sneakers – White, Crewneck Tee – Black. Let me know if any of these catch your eye, or if you want a full outfit suggestion once you share those details!"
+          ]
+        }
+      ],
+      "preparation_iterations": [
+        {
+          "guideline_matches": [
+            {
+              "guideline_id": "rqhgx4Bk76",
+              "condition": "The customer wants to buy clothes or an outfit",
+              "action": null,
+              "score": 10,
+              "rationale": "Condition Application Rationale: \"The customer mentioned wanting something to wear on a date, indicating they are looking to buy clothes or an outfit.\""
+            },
+            {
+              "guideline_id": "rKnXwSQdww",
+              "condition": "The customer asks what to wear for a specific occasion (e.g., date night, wedding, interview, party)",
+              "action": "Ask for venue (indoor/outdoor), dress code, climate, preferred palette, and budget. Offer 3 concise outfit directions (top/bottom/shoes/accessories) with why each fits the vibe. Invite them to pick a lane or tweak details.",
+              "score": 10,
+              "rationale": "The customer mentioned they want something to wear on a date today, which is a specific occasion."
+            },
+            {
+              "guideline_id": "Rr5ZAcmtNA",
+              "condition": "on every new customer message",
+              "action": "Call analyze_query(text=<message>). If intent in [product_search, outfit_advice, fragrance]: ask 2–3 short clarifiers if key info is missing (occasion, venue/setting, weather/climate, fit/size, color palette, budget, preferred brands). Then call catalog_search(query=...). Present 3–5 options with a one-line 'why' and price (INR) if available. Finish with a single question to move the convo forward.",
+              "score": 10,
+              "rationale": "The most recent message from the customer is a new message where they express a desire for something to wear on a date today. This aligns with the condition of 'on every new customer message', and the customer's request falls under the category of 'outfit_advice', which is part of the specified intents."
+            },
+            {
+              "guideline_id": "journey_node:kpvZ1YkbiX:fpDUmoC0vZ",
+              "condition": "",
+              "action": "Use the tool get_trending_items",
+              "score": 10,
+              "rationale": "This guideline was selected as part of a 'journey' - a sequence of actions that are performed in order. Use this rationale to better understand how the conversation got to its current point. The rationale for choosing this specific step in the journey was: The customer has provided the occasion they are shopping for ('a date today'), which completes step 2. According to the journey, after step 2 is completed, the next step is to use the get_trending_items tool (step 3). Since step 3 requires a tool call, we must stop advancement here and return it as the next step."
+            }
+          ],
+          "tool_calls": [
+            {
+              "tool_id": "built-in:analyze_query",
+              "arguments": {
+                "text": "I want something to wear on a date today"
+              },
+              "result": {
+                "data": {
+                  "intent": "outfit_advice",
+                  "normalized_query": "I want advice on what to wear on a date today.",
+                  "subqueries": [],
+                  "entities": {},
+                  "followups": []
+                },
+                "metadata": {},
+                "control": {},
+                "canned_responses": [],
+                "canned_response_fields": {}
+              }
+            },
+            {
+              "tool_id": "built-in:get_trending_items",
+              "arguments": {},
+              "result": {
+                "data": [
+                  "Oxford Shirt – White",
+                  "Slim Chinos – Navy",
+                  "Minimal Sneakers – White",
+                  "Crewneck Tee – Black"
+                ],
+                "metadata": {},
+                "control": {},
+                "canned_responses": [],
+                "canned_response_fields": {}
+              }
+            }
+          ],
+          "terms": [
+            {
+              "id": "8XR3X9lxaV",
+              "name": "Return Policy",
+              "description": "Items can be returned within 14 days if unworn and tagged.",
+              "synonyms": []
+            },
+            {
+              "id": "zgyWRs6Mgb",
+              "name": "Size Guide",
+              "description": "Use the size chart for waist/chest/length measurements.",
+              "synonyms": []
+            },
+            {
+              "id": "eFcqM3ppWw",
+              "name": "Fabric Care",
+              "description": "Care instructions for cotton, wool, leather, and denim.",
+              "synonyms": []
+            }
+          ],
+          "context_variables": [],
+          "generations": {
+            "guideline_match": {
+              "total_duration": 3.239351511001587,
+              "batches": [
+                {
+                  "schema_name": "GenericObservationalGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.9366660118103027,
+                  "usage": {
+                    "input_tokens": 3361,
+                    "output_tokens": 65,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericPreviouslyAppliedActionableCustomerDependentGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 2.042022466659546,
+                  "usage": {
+                    "input_tokens": 3874,
+                    "output_tokens": 138,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.7969801425933838,
+                  "usage": {
+                    "input_tokens": 3021,
+                    "output_tokens": 82,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 3.231816053390503,
+                  "usage": {
+                    "input_tokens": 2978,
+                    "output_tokens": 98,
+                    "extra": {
+                      "cached_input_tokens": 0
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.408036708831787,
+                  "usage": {
+                    "input_tokens": 3031,
+                    "output_tokens": 107,
+                    "extra": {
+                      "cached_input_tokens": 2560
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.4480156898498535,
+                  "usage": {
+                    "input_tokens": 2955,
+                    "output_tokens": 76,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "JourneyNodeSelectionSchema",
+                  "model": "openai/gpt-4.1",
+                  "duration": 2.947061061859131,
+                  "usage": {
+                    "input_tokens": 8570,
+                    "output_tokens": 165,
+                    "extra": {
+                      "cached_input_tokens": 7040
+                    }
+                  }
+                }
+              ]
+            },
+            "tool_calls": [
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 3.0903825759887695,
+                "usage": {
+                  "input_tokens": 5578,
+                  "output_tokens": 397,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 4.061965465545654,
+                "usage": {
+                  "input_tokens": 5659,
+                  "output_tokens": 458,
+                  "extra": {
+                    "cached_input_tokens": 4736
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 2.764916181564331,
+                "usage": {
+                  "input_tokens": 5422,
+                  "output_tokens": 214,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "guideline_matches": [
+            {
+              "guideline_id": "rqhgx4Bk76",
+              "condition": "The customer wants to buy clothes or an outfit",
+              "action": null,
+              "score": 10,
+              "rationale": "Condition Application Rationale: \"The customer mentioned wanting something to wear on a date, indicating they are looking to buy clothes or an outfit.\""
+            },
+            {
+              "guideline_id": "journey_node:MT3eKClF1U:SBmqBsvaIs",
+              "condition": "",
+              "action": "List trending items and ask which one they want",
+              "score": 10,
+              "rationale": "This guideline was selected as part of a 'journey' - a sequence of actions that are performed in order. It was automatically selected as the only viable follow up for the last step that was executed"
+            },
+            {
+              "guideline_id": "rKnXwSQdww",
+              "condition": "The customer asks what to wear for a specific occasion (e.g., date night, wedding, interview, party)",
+              "action": "Ask for venue (indoor/outdoor), dress code, climate, preferred palette, and budget. Offer 3 concise outfit directions (top/bottom/shoes/accessories) with why each fits the vibe. Invite them to pick a lane or tweak details.",
+              "score": 10,
+              "rationale": "The customer mentioned they want something to wear on a date today, which is a specific occasion."
+            },
+            {
+              "guideline_id": "Rr5ZAcmtNA",
+              "condition": "on every new customer message",
+              "action": "Call analyze_query(text=<message>). If intent in [product_search, outfit_advice, fragrance]: ask 2–3 short clarifiers if key info is missing (occasion, venue/setting, weather/climate, fit/size, color palette, budget, preferred brands). Then call catalog_search(query=...). Present 3–5 options with a one-line 'why' and price (INR) if available. Finish with a single question to move the convo forward.",
+              "score": 10,
+              "rationale": "The most recent message from the customer is a new message where they express a desire for something to wear on a date today. This aligns with the condition of 'on every new customer message', and the customer's request falls under the category of 'outfit_advice', which is part of the specified intents."
+            }
+          ],
+          "tool_calls": [],
+          "terms": [
+            {
+              "id": "8XR3X9lxaV",
+              "name": "Return Policy",
+              "description": "Items can be returned within 14 days if unworn and tagged.",
+              "synonyms": []
+            },
+            {
+              "id": "zgyWRs6Mgb",
+              "name": "Size Guide",
+              "description": "Use the size chart for waist/chest/length measurements.",
+              "synonyms": []
+            },
+            {
+              "id": "eFcqM3ppWw",
+              "name": "Fabric Care",
+              "description": "Care instructions for cotton, wool, leather, and denim.",
+              "synonyms": []
+            }
+          ],
+          "context_variables": [],
+          "generations": {
+            "guideline_match": {
+              "total_duration": 0.0,
+              "batches": [
+                {
+                  "schema_name": "No inference performed",
+                  "model": "No inference performed",
+                  "duration": 0.0,
+                  "usage": {
+                    "input_tokens": 0,
+                    "output_tokens": 0,
+                    "extra": {}
+                  }
+                }
+              ]
+            },
+            "tool_calls": [
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 2.4284286499023438,
+                "usage": {
+                  "input_tokens": 5853,
+                  "output_tokens": 386,
+                  "extra": {
+                    "cached_input_tokens": 0
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 3.6064343452453613,
+                "usage": {
+                  "input_tokens": 5934,
+                  "output_tokens": 439,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lpwlwGHBNo",
+      "version": "0.6.0",
+      "session_id": "JGZNu3QVIl",
+      "correlation_id": "RX6YJGquUeW::process",
+      "message_generations": [
+        {
+          "generations": [
+            {
+              "schema_name": "CannedResponseDraftSchema",
+              "model": "openai/gpt-4.1",
+              "duration": 5.213967323303223,
+              "usage": {
+                "input_tokens": 4905,
+                "output_tokens": 528,
+                "extra": {
+                  "cached_input_tokens": 1024
+                }
+              }
+            }
+          ],
+          "generation_names": [
+            "draft"
+          ],
+          "messages": [
+            "To lock in the perfect black date look, could you tell me: is your date indoors or outdoors, any dress code or vibe (chill, fancy, romantic), and what’s the weather like? Also, do you have a budget in mind? ",
+            "Meanwhile, here are three black outfit options that could totally steal the show:",
+            "1. For women: rareism sleeveless black maxi dress – elegant and breezy for a romantic dinner.\n2. For men: rare rabbit black graphic print jacket – adds edge for a casual or artsy date.\n3. For a sharp look: pantproject tuxedo black 2-piece suit – classic and confident for a fancier venue.",
+            "Which one’s calling your name, or want to tweak the vibe? Let me know your details and I’ll fine-tune your date-night fit!"
+          ]
+        }
+      ],
+      "preparation_iterations": [
+        {
+          "guideline_matches": [
+            {
+              "guideline_id": "rqhgx4Bk76",
+              "condition": "The customer wants to buy clothes or an outfit",
+              "action": null,
+              "score": 10,
+              "rationale": "Condition Application Rationale: \"The customer mentioned wanting something to wear on a date, indicating they are interested in buying clothes or an outfit.\""
+            },
+            {
+              "guideline_id": "rKnXwSQdww",
+              "condition": "The customer asks what to wear for a specific occasion (e.g., date night, wedding, interview, party)",
+              "action": "Ask for venue (indoor/outdoor), dress code, climate, preferred palette, and budget. Offer 3 concise outfit directions (top/bottom/shoes/accessories) with why each fits the vibe. Invite them to pick a lane or tweak details.",
+              "score": 10,
+              "rationale": "The customer mentioned they want something to wear on a date today, which is a specific occasion. The conversation is still focused on this topic as the customer has expressed a preference for the color black, which is relevant to their outfit choice for the date."
+            },
+            {
+              "guideline_id": "VP2sIjZmYJ",
+              "condition": "the customer states a stable preference (size, color, fit, budget, brand, climate)",
+              "action": "Acknowledge and call save_preference_to_mem0(statement=the exact preference).",
+              "score": 10,
+              "rationale": "In the most recent message, the customer expresses a preference for the color black, which is a stable preference."
+            },
+            {
+              "guideline_id": "Rr5ZAcmtNA",
+              "condition": "on every new customer message",
+              "action": "Call analyze_query(text=<message>). If intent in [product_search, outfit_advice, fragrance]: ask 2–3 short clarifiers if key info is missing (occasion, venue/setting, weather/climate, fit/size, color palette, budget, preferred brands). Then call catalog_search(query=...). Present 3–5 options with a one-line 'why' and price (INR) if available. Finish with a single question to move the convo forward.",
+              "score": 10,
+              "rationale": "The most recent message from the customer is 'I love Black color honestly'. This is a new customer message, and the guideline specifies that it applies to every new customer message."
+            },
+            {
+              "guideline_id": "journey_node:MT3eKClF1U:SBmqBsvaIs",
+              "condition": "",
+              "action": "List trending items and ask which one they want",
+              "score": 10,
+              "rationale": "This guideline was selected as part of a 'journey' - a sequence of actions that are performed in order. Use this rationale to better understand how the conversation got to its current point. The rationale for choosing this specific step in the journey was: The last executed step is step 4, which requires the customer to indicate which trending item they want. The customer responded with a preference for the color black, but did not select a specific trending item from the list provided. Therefore, step 4 is not yet completed and must be repeated to prompt the customer to pick an item."
+            }
+          ],
+          "tool_calls": [
+            {
+              "tool_id": "built-in:analyze_query",
+              "arguments": {
+                "text": "I love Black color honestly"
+              },
+              "result": {
+                "data": "Tool call error",
+                "metadata": {
+                  "error_details": "Tool error (tool='analyze_query'): url='http://127.0.0.1:8818', arguments='{'text': 'I love Black color honestly'}', error: "
+                },
+                "control": {},
+                "canned_responses": [],
+                "canned_response_fields": {}
+              }
+            },
+            {
+              "tool_id": "built-in:catalog_search",
+              "arguments": {
+                "query": "Black color outfits for a date"
+              },
+              "result": {
+                "data": {
+                  "query": "Black color outfits for a date",
+                  "items": [
+                    {
+                      "title": "rareism women's janfree black polyester shoulder strap plain sleeveless maxi a-line dress",
+                      "brand": "thehouseofrare",
+                      "category": "evening maxi dresses",
+                      "in_stock": true,
+                      "price_inr": null,
+                      "score": 0.59170765,
+                      "product_id": "thehouseofrare.com#janfree-womens-dress-black"
+                    },
+                    {
+                      "title": "rare rabbit men's loon black cotton graphic print regular fit full sleeve spread collar jacket",
+                      "brand": "thehouseofrare",
+                      "category": "black denim sets",
+                      "in_stock": true,
+                      "price_inr": null,
+                      "score": 0.5929331,
+                      "product_id": "thehouseofrare.com#loon-mens-jacket-black"
+                    },
+                    {
+                      "title": "black knit shirt",
+                      "brand": "nonasties",
+                      "category": "formal evening shirts",
+                      "in_stock": false,
+                      "price_inr": null,
+                      "score": 0.60986495,
+                      "product_id": "www.nonasties.in#black-organic-cotton-full-sleeve-knit-shirt-for-men-online"
+                    },
+                    {
+                      "title": "no fade black hoodie",
+                      "brand": "blakc",
+                      "category": "hoodie & jogger sets",
+                      "in_stock": true,
+                      "price_inr": null,
+                      "score": 0.5925682,
+                      "product_id": "blakc.store#hoodie"
+                    },
+                    {
+                      "title": "rareism women's zelina black polyester round neck striped sleeveless knee length a-line dress",
+                      "brand": "thehouseofrare",
+                      "category": "a-line midi dresses",
+                      "in_stock": true,
+                      "price_inr": null,
+                      "score": 0.58514595,
+                      "product_id": "thehouseofrare.com#zelina-womens-dress-black"
+                    },
+                    {
+                      "title": "black denim co-ord set",
+                      "brand": "hiphopclothingindia",
+                      "category": "black denim sets",
+                      "in_stock": false,
+                      "price_inr": null,
+                      "score": 0.614429,
+                      "product_id": "hiphopclothingindia.com#black-denim-co-ord-set"
+                    },
+                    {
+                      "title": "tuxedo black 2 piece suit",
+                      "brand": "pantproject",
+                      "category": "single-breasted tuxedos",
+                      "in_stock": true,
+                      "price_inr": null,
+                      "score": 0.6346097,
+                      "product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1"
+                    },
+                    {
+                      "title": "stockholm star black 2 piece suit",
+                      "brand": "pantproject",
+                      "category": "black single breasted",
+                      "in_stock": true,
+                      "price_inr": null,
+                      "score": 0.61656255,
+                      "product_id": "pantproject.com#stockholm-star-black-2-piece-suit"
+                    },
+                    {
+                      "title": "men black challenge hoodie",
+                      "brand": "cultstore",
+                      "category": "hoodie & jogger sets",
+                      "in_stock": false,
+                      "price_inr": null,
+                      "score": 0.6028605,
+                      "product_id": "cultstore.com#men-black-challenge-hoodie"
+                    },
+                    {
+                      "title": "black tapered pants",
+                      "brand": "nonasties",
+                      "category": "black chinos",
+                      "in_stock": false,
+                      "price_inr": null,
+                      "score": 0.59362805,
+                      "product_id": "www.nonasties.in#tapered-pants-black"
+                    },
+                    {
+                      "title": "noir drape dress",
+                      "brand": "nonasties",
+                      "category": "short sleeve midi dresses",
+                      "in_stock": false,
+                      "price_inr": null,
+                      "score": 0.5893768,
+                      "product_id": "www.nonasties.in#noir-black-organic-cotton-drape-dress-for-women-online"
+                    },
+                    {
+                      "title": "helsinki heritage dark navy 2 piece suit",
+                      "brand": "pantproject",
+                      "category": "navy single breasted suits",
+                      "in_stock": true,
+                      "price_inr": null,
+                      "score": 0.5851949,
+                      "product_id": "pantproject.com#helsinki-heritage-ark-navy-2-piece-suit"
+                    }
+                  ]
+                },
+                "metadata": {},
+                "control": {},
+                "canned_responses": [],
+                "canned_response_fields": {}
+              }
+            },
+            {
+              "tool_id": "built-in:save_preference_to_mem0",
+              "arguments": {
+                "statement": "I love Black color honestly"
+              },
+              "result": {
+                "data": "ok",
+                "metadata": {},
+                "control": {},
+                "canned_responses": [],
+                "canned_response_fields": {}
+              }
+            }
+          ],
+          "terms": [
+            {
+              "id": "8XR3X9lxaV",
+              "name": "Return Policy",
+              "description": "Items can be returned within 14 days if unworn and tagged.",
+              "synonyms": []
+            },
+            {
+              "id": "zgyWRs6Mgb",
+              "name": "Size Guide",
+              "description": "Use the size chart for waist/chest/length measurements.",
+              "synonyms": []
+            },
+            {
+              "id": "eFcqM3ppWw",
+              "name": "Fabric Care",
+              "description": "Care instructions for cotton, wool, leather, and denim.",
+              "synonyms": []
+            }
+          ],
+          "context_variables": [],
+          "generations": {
+            "guideline_match": {
+              "total_duration": 4.674211263656616,
+              "batches": [
+                {
+                  "schema_name": "GenericObservationalGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.5316967964172363,
+                  "usage": {
+                    "input_tokens": 3794,
+                    "output_tokens": 65,
+                    "extra": {
+                      "cached_input_tokens": 3200
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericPreviouslyAppliedActionableCustomerDependentGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.8046047687530518,
+                  "usage": {
+                    "input_tokens": 4307,
+                    "output_tokens": 128,
+                    "extra": {
+                      "cached_input_tokens": 3072
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 2.050222396850586,
+                  "usage": {
+                    "input_tokens": 3454,
+                    "output_tokens": 113,
+                    "extra": {
+                      "cached_input_tokens": 3200
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.4644575119018555,
+                  "usage": {
+                    "input_tokens": 3411,
+                    "output_tokens": 81,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 2.263648748397827,
+                  "usage": {
+                    "input_tokens": 3464,
+                    "output_tokens": 81,
+                    "extra": {
+                      "cached_input_tokens": 3200
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 1.55954909324646,
+                  "usage": {
+                    "input_tokens": 3388,
+                    "output_tokens": 73,
+                    "extra": {
+                      "cached_input_tokens": 2048
+                    }
+                  }
+                },
+                {
+                  "schema_name": "JourneyNodeSelectionSchema",
+                  "model": "openai/gpt-4.1",
+                  "duration": 4.656052827835083,
+                  "usage": {
+                    "input_tokens": 9278,
+                    "output_tokens": 129,
+                    "extra": {
+                      "cached_input_tokens": 7040
+                    }
+                  }
+                }
+              ]
+            },
+            "tool_calls": [
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 3.551398992538452,
+                "usage": {
+                  "input_tokens": 6053,
+                  "output_tokens": 368,
+                  "extra": {
+                    "cached_input_tokens": 0
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 3.4768080711364746,
+                "usage": {
+                  "input_tokens": 6134,
+                  "output_tokens": 467,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 2.9829094409942627,
+                "usage": {
+                  "input_tokens": 6006,
+                  "output_tokens": 387,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "guideline_matches": [
+            {
+              "guideline_id": "rqhgx4Bk76",
+              "condition": "The customer wants to buy clothes or an outfit",
+              "action": null,
+              "score": 10,
+              "rationale": "Condition Application Rationale: \"The customer mentioned wanting something to wear on a date, indicating they are interested in buying clothes or an outfit.\""
+            },
+            {
+              "guideline_id": "rKnXwSQdww",
+              "condition": "The customer asks what to wear for a specific occasion (e.g., date night, wedding, interview, party)",
+              "action": "Ask for venue (indoor/outdoor), dress code, climate, preferred palette, and budget. Offer 3 concise outfit directions (top/bottom/shoes/accessories) with why each fits the vibe. Invite them to pick a lane or tweak details.",
+              "score": 10,
+              "rationale": "The customer mentioned they want something to wear on a date today, which is a specific occasion. The conversation is still focused on this topic as the customer has expressed a preference for the color black, which is relevant to their outfit choice for the date."
+            },
+            {
+              "guideline_id": "journey_node:MT3eKClF1U:SBmqBsvaIs",
+              "condition": "",
+              "action": "List trending items and ask which one they want",
+              "score": 10,
+              "rationale": "This guideline was selected as part of a 'journey' - a sequence of actions that are performed in order. Use this rationale to better understand how the conversation got to its current point. The rationale for choosing this specific step in the journey was: The last executed step was step 4, which requires the customer to indicate which trending item they want. The customer has not yet picked a specific item from the trending list or from the black color outfit catalog search results. They only expressed a preference for black color, which was acknowledged, but did not select a specific item. Therefore, step 4 is not yet complete and must be repeated."
+            },
+            {
+              "guideline_id": "Rr5ZAcmtNA",
+              "condition": "on every new customer message",
+              "action": "Call analyze_query(text=<message>). If intent in [product_search, outfit_advice, fragrance]: ask 2–3 short clarifiers if key info is missing (occasion, venue/setting, weather/climate, fit/size, color palette, budget, preferred brands). Then call catalog_search(query=...). Present 3–5 options with a one-line 'why' and price (INR) if available. Finish with a single question to move the convo forward.",
+              "score": 10,
+              "rationale": "The most recent message from the customer is 'I love Black color honestly'. This is a new customer message, and the guideline specifies that it applies to every new customer message."
+            },
+            {
+              "guideline_id": "VP2sIjZmYJ",
+              "condition": "the customer states a stable preference (size, color, fit, budget, brand, climate)",
+              "action": "Acknowledge and call save_preference_to_mem0(statement=the exact preference).",
+              "score": 10,
+              "rationale": "In the most recent message, the customer expresses a preference for the color black, which is a stable preference."
+            }
+          ],
+          "tool_calls": [],
+          "terms": [
+            {
+              "id": "8XR3X9lxaV",
+              "name": "Return Policy",
+              "description": "Items can be returned within 14 days if unworn and tagged.",
+              "synonyms": []
+            },
+            {
+              "id": "zgyWRs6Mgb",
+              "name": "Size Guide",
+              "description": "Use the size chart for waist/chest/length measurements.",
+              "synonyms": []
+            },
+            {
+              "id": "eFcqM3ppWw",
+              "name": "Fabric Care",
+              "description": "Care instructions for cotton, wool, leather, and denim.",
+              "synonyms": []
+            }
+          ],
+          "context_variables": [],
+          "generations": {
+            "guideline_match": {
+              "total_duration": 3.7315707206726074,
+              "batches": [
+                {
+                  "schema_name": "JourneyNodeSelectionSchema",
+                  "model": "openai/gpt-4.1",
+                  "duration": 3.7275595664978027,
+                  "usage": {
+                    "input_tokens": 10438,
+                    "output_tokens": 141,
+                    "extra": {
+                      "cached_input_tokens": 8192
+                    }
+                  }
+                }
+              ]
+            },
+            "tool_calls": [
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 3.2244911193847656,
+                "usage": {
+                  "input_tokens": 7246,
+                  "output_tokens": 225,
+                  "extra": {
+                    "cached_input_tokens": 5120
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 5.701828718185425,
+                "usage": {
+                  "input_tokens": 7327,
+                  "output_tokens": 467,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 2.158812999725342,
+                "usage": {
+                  "input_tokens": 7199,
+                  "output_tokens": 192,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
