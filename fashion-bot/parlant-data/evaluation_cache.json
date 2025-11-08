@@ -1,82 +1,21 @@
 {
   "guideline_evaluations_3.0.3": [
     {
-      "id": "a9ce2c0d97365c9154a84d997de7d513",
+      "id": "28430f00354525a6ff0cda94d5c8ec60",
       "version": "3.0.3",
       "properties": {
-        "continuous": null,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null,
-        "tool_running_only": false
-      }
-    },
-    {
-      "id": "156ee7d337f20990ec0e064046022f00",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": null,
+        "continuous": true,
         "customer_dependent_action_data": {
           "is_customer_dependent": true,
-          "customer_action": "The customer confirms the size/color and provides their address",
-          "agent_action": "The agent asks the customer to confirm the size/color and provide their address before placing the order"
+          "customer_action": "The customer responds to the style-related question or request for style help",
+          "agent_action": "The agent gracefully redirects the conversation with personality, keeping it light and friendly"
         },
         "agent_intention_condition": null,
-        "internal_action": null,
-        "tool_running_only": false
+        "internal_action": null
       }
     },
     {
-      "id": "9383284305e231068b5779ada50a959d",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": null,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer provides information about the occasion or item they are shopping for",
-          "agent_action": "The agent asks what occasion or item the customer is shopping for"
-        },
-        "agent_intention_condition": null,
-        "internal_action": null,
-        "tool_running_only": false
-      }
-    },
-    {
-      "id": "2c700c264c4c8453a9a16632d7423fc4",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": null,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer indicates which trending item they want",
-          "agent_action": "The agent lists trending items and asks the customer which one they want"
-        },
-        "agent_intention_condition": null,
-        "internal_action": null,
-        "tool_running_only": false
-      }
-    },
-    {
-      "id": "84ff364e0c1c5a3b4cc6a1231630d4f1",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": null,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null,
-        "tool_running_only": true
-      }
-    },
-    {
-      "id": "0b72fe5a22757a32150b55e9df06d433",
+      "id": "32ef278daed2fbea57c4bb172d90ab3a",
       "version": "3.0.3",
       "properties": {
         "continuous": false,
@@ -90,7 +29,21 @@
       }
     },
     {
-      "id": "e6fadf085c3a820cac8a8587df298e1e",
+      "id": "d7135a031bf281bbeb5e1fa60e1bc744",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "2103f3846f50b6171c353ef4baa749fa",
       "version": "3.0.3",
       "properties": {
         "continuous": false,
@@ -104,111 +57,47 @@
       }
     },
     {
-      "id": "c3855a425ad99afb751ea2aedde09fc9",
+      "id": "577191fdbb82b408113319634bfe6d04",
       "version": "3.0.3",
       "properties": {
         "continuous": false,
         "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
+          "is_customer_dependent": true,
+          "customer_action": "The customer responds to the engaging question",
+          "agent_action": "The agent uses generate_product_presentation for personalized descriptions, includes product details, presents 5 to 8 products, and ends with one engaging question."
+        },
+        "agent_intention_condition": "You are likely to present products based on search results",
+        "internal_action": null
+      }
+    },
+    {
+      "id": "eb3e709a546fbf17d5045287758b21b9",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides their name or what brings them today.",
+          "agent_action": "The agent calls the quick_greeting_check tool, greets the customer warmly, mentions trends, and asks for their name or what brings them today."
         },
         "agent_intention_condition": null,
         "internal_action": null
       }
     },
     {
-      "id": "135d137d151ded54f6346267c310e121",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": null,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null,
-        "tool_running_only": true
-      }
-    },
-    {
-      "id": "dff029bf588c430ff9d40b03ce6c7093",
+      "id": "f6c1127d318be195cbbf17c04524608f",
       "version": "3.0.3",
       "properties": {
         "continuous": false,
         "customer_dependent_action_data": {
           "is_customer_dependent": true,
-          "customer_action": "The customer provides the key information if it was missing.",
-          "agent_action": "The agent calls analyze_query(text=<message>), composes a concise query from normalized_query + entities if intent is in [product_search, outfit_advice, fragrance], calls catalog_search(query=...), presents 3–5 options with brief why & price (INR) if available, and asks one follow-up if key info is missing."
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "52a28f0c048a058f7470e05e32ee8a65",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer tells the agent what they’re shopping for or the event they have.",
-          "agent_action": "The agent replies with a brief playful line and asks what the customer is shopping for or the event they have."
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "94f424256fdbd99c979f93745af45ef6",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer provides information about the venue, dress code, climate, preferred palette, and budget, and picks a lane or tweaks details.",
-          "agent_action": "The agent asks for the venue, dress code, climate, preferred palette, and budget, offers 3 concise outfit directions with explanations, and invites the customer to pick a lane or tweak details."
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "1733aae9fa328bc5d1e47338be7c1800",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer provides responses to the clarifying questions and engages with the follow-up question to move the conversation forward.",
-          "agent_action": "The agent calls analyze_query(text=<message>), asks 2–3 short clarifiers if key info is missing, calls catalog_search(query=...), presents 3–5 options with a one-line 'why' and price (INR) if available, and finishes with a single question to move the convo forward."
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "fa3afc8865c5d2dfe9652798dff6fbc8",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer responds to the follow-up question or clarifiers, and engages with the options presented.",
-          "agent_action": "The agent calls analyze_query, acknowledges and saves preference if applicable, asks follow-up questions or clarifiers, calls catalog_search, presents options, and finishes with a question."
+          "customer_action": "The customer provides a response to the clarifying question if asked.",
+          "agent_action": "The agent follows the flow, including calling intelligent_query_analyzer, asking a clarifying question if needed, redirecting if off_topic, saving user preferences, and conducting product search or outfit advice steps."
         },
         "agent_intention_condition": null,
         "internal_action": null
       }
     }
   ],
-  "journey_evaluations_3.0.3": [
-    {
-      "id": "e1b55f54251607a28e67dd5dcb2eeea2",
-      "version": "3.0.3",
-      "node_properties": {},
-      "edge_properties": {}
-    }
-  ]
+  "journey_evaluations_3.0.3": []
 }

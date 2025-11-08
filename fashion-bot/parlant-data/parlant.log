@@ -1,33 +1,1148 @@
-[2m2025-11-08T06:46:18.860990Z[0m [[32m[1minfo     [0m] [1m[<main>] Parlant server version 3.0.3[0m
-[2m2025-11-08T06:46:18.869152Z[0m [[32m[1minfo     [0m] [1m[<main>] Using home directory 'D:\muse3.0\Parlant_mem0\fashion-bot\parlant-data'[0m
-[2m2025-11-08T06:46:18.869152Z[0m [[32m[1minfo     [0m] [1m[<main>] No external modules selected[0m
-[2m2025-11-08T06:46:19.422770Z[0m [[32m[1minfo     [0m] [1m[<main>] Initialized OpenAIService[0m
-[2m2025-11-08T06:49:28.873419Z[0m [[32m[1minfo     [0m] [1m[<main>] Parlant server version 3.0.3[0m
-[2m2025-11-08T06:49:28.874408Z[0m [[32m[1minfo     [0m] [1m[<main>] Using home directory 'D:\muse3.0\Parlant_mem0\fashion-bot\parlant-data'[0m
-[2m2025-11-08T06:49:28.879089Z[0m [[32m[1minfo     [0m] [1m[<main>] No external modules selected[0m
-[2m2025-11-08T06:49:29.334413Z[0m [[32m[1minfo     [0m] [1m[<main>] Initialized OpenAIService[0m
-[2m2025-11-08T06:51:03.097514Z[0m [[32m[1minfo     [0m] [1m[<main>] .-----------------------------------------.[0m
-[2m2025-11-08T06:51:03.097514Z[0m [[32m[1minfo     [0m] [1m[<main>] | Server is ready for some serious action |[0m
-[2m2025-11-08T06:51:03.097514Z[0m [[32m[1minfo     [0m] [1m[<main>] '-----------------------------------------'[0m
-[2m2025-11-08T06:51:03.097514Z[0m [[32m[1minfo     [0m] [1m[<main>] Server authorization policy: development[0m
-[2m2025-11-08T06:51:03.097514Z[0m [[32m[1minfo     [0m] [1m[<main>] Try the Sandbox UI at http://localhost:8800[0m
-[2m2025-11-08T06:51:03.210514Z[0m [[32m[1minfo     [0m] [1m[REtiymAcx9z] Session not found (id='q7aMYGjgbM')[0m
-[2m2025-11-08T07:11:11.319858Z[0m [[32m[1minfo     [0m] [1m[<main>] Parlant server version 3.0.3[0m
-[2m2025-11-08T07:11:11.344638Z[0m [[32m[1minfo     [0m] [1m[<main>] Using home directory 'D:\muse3.0\Parlant_mem0\fashion-bot\parlant-data'[0m
-[2m2025-11-08T07:11:11.376354Z[0m [[32m[1minfo     [0m] [1m[<main>] No external modules selected[0m
-[2m2025-11-08T07:11:12.467553Z[0m [[32m[1minfo     [0m] [1m[<main>] Initialized OpenAIService[0m
-[2m2025-11-08T07:11:34.359142Z[0m [[32m[1minfo     [0m] [1m[<main>] .-----------------------------------------.[0m
-[2m2025-11-08T07:11:34.359142Z[0m [[32m[1minfo     [0m] [1m[<main>] | Server is ready for some serious action |[0m
-[2m2025-11-08T07:11:34.359142Z[0m [[32m[1minfo     [0m] [1m[<main>] '-----------------------------------------'[0m
-[2m2025-11-08T07:11:34.359142Z[0m [[32m[1minfo     [0m] [1m[<main>] Server authorization policy: development[0m
-[2m2025-11-08T07:11:34.359142Z[0m [[32m[1minfo     [0m] [1m[<main>] Try the Sandbox UI at http://localhost:8800[0m
-[2m2025-11-08T07:13:52.903060Z[0m [[32m[1minfo     [0m] [1m[RFjl2NzcCzj::process] Processing context for session JGZNu3QVIl finished in 35.841 seconds[0m
-[2m2025-11-08T07:15:34.189046Z[0m [[32m[1minfo     [0m] [1m[RKadW4OIXmt::process] Processing context for session JGZNu3QVIl finished in 47.239 seconds[0m
-[2m2025-11-08T07:17:19.229541Z[0m [[31m[1merror    [0m] [1m[RX6YJGquUeW::process][ToolCaller] Execution::Result: Tool call failed (built-in:analyze_query/2r50PAdOrk)
-['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\tool_caller.py", line 263, in _run_tool\n    result = await service.call_tool(\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 943, in call_tool\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 933, in call_tool\n    raise ToolExecutionError(\n', "parlant.core.tools.ToolExecutionError: Tool error (tool='analyze_query'): url='http://127.0.0.1:8818', arguments='{'text': 'I love Black color honestly'}', error: \n"][0m
-[2m2025-11-08T07:17:19.230548Z[0m [[31m[1merror    [0m] [1m[RX6YJGquUeW::process][ToolCaller] Execution::Error: ToolId: built-in:analyze_query', Arguments:
+[2m2025-11-08T13:59:46.421593Z[0m [[32m[1minfo     [0m] [1m[<main>] Parlant server version 3.0.3[0m
+[2m2025-11-08T13:59:46.421593Z[0m [[32m[1minfo     [0m] [1m[<main>] Using home directory 'D:\muse3.0\Parlant_mem0\fashion-bot\parlant-data'[0m
+[2m2025-11-08T13:59:46.421593Z[0m [[32m[1minfo     [0m] [1m[<main>] No external modules selected[0m
+[2m2025-11-08T13:59:46.448185Z[0m [[32m[1minfo     [0m] [1m[<main>] Initialized OpenAIService[0m
+[2m2025-11-08T14:00:10.553062Z[0m [[32m[1minfo     [0m] [1m[<main>] .-----------------------------------------.[0m
+[2m2025-11-08T14:00:10.553062Z[0m [[32m[1minfo     [0m] [1m[<main>] | Server is ready for some serious action |[0m
+[2m2025-11-08T14:00:10.553062Z[0m [[32m[1minfo     [0m] [1m[<main>] '-----------------------------------------'[0m
+[2m2025-11-08T14:00:10.553062Z[0m [[32m[1minfo     [0m] [1m[<main>] Server authorization policy: development[0m
+[2m2025-11-08T14:00:10.553062Z[0m [[32m[1minfo     [0m] [1m[<main>] Try the Sandbox UI at http://localhost:8800[0m
+[2m2025-11-08T14:00:45.860272Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:45.863272Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:45.873017Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:45.875030Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:48.168632Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:48.168632Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:48.242149Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:48.244220Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:51.546899Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:51.549903Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:51.554159Z[0m [[33m[1mwarning  [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] SingleToolBatch attempt 0 failed: ['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 101, in map_httpcore_exceptions\n    yield\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 256, in handle_async_request\n    raise exc from None\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 101, in handle_async_request\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 78, in handle_async_request\n    stream = await self._connect(request)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 124, in _connect\n    stream = await self._network_backend.connect_tcp(**kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\auto.py", line 31, in connect_tcp\n    return await self._backend.connect_tcp(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\anyio.py", line 113, in connect_tcp\n    with map_exceptions(exc_map):\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_exceptions.py", line 14, in map_exceptions\n    raise to_exc(exc) from exc\n', 'httpcore.ConnectError: [Errno 11001] getaddrinfo failed\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1529, in request\n    response = await self._client.send(\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1629, in send\n    response = await self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\n', 'httpx.ConnectError: [Errno 11001] getaddrinfo failed\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\single_tool_batch.py", line 217, in _infer_calls_for_single_tool\n    generation_info, inference_output = await self._run_inference(\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\single_tool_batch.py", line 800, in _run_inference\n    inference = await self._schematic_generator.generate(\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 135, in wrapped_func\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 144, in wrapped_func\n    return await policy.apply(state, func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 65, in apply\n    raise e\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 60, in apply\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 144, in wrapped_func\n    return await policy.apply(state, func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 60, in apply\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 125, in wrapped_func\n    return await func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\adapters\\nlp\\openai_service.py", line 137, in generate\n    return await self._do_generate(prompt, hints)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\adapters\\nlp\\openai_service.py", line 193, in _do_generate\n    response = await self._client.chat.completions.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\resources\\chat\\completions\\completions.py", line 2585, in create\n    return await self._post(\n           ^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1794, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1561, in request\n    raise APIConnectionError(request=request) from err\n', 'openai.APIConnectionError: Connection error.\n'][0m
+[2m2025-11-08T14:00:51.558691Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:51.561684Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:51.563906Z[0m [[33m[1mwarning  [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] SingleToolBatch attempt 0 failed: ['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 101, in map_httpcore_exceptions\n    yield\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 256, in handle_async_request\n    raise exc from None\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 101, in handle_async_request\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 78, in handle_async_request\n    stream = await self._connect(request)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 124, in _connect\n    stream = await self._network_backend.connect_tcp(**kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\auto.py", line 31, in connect_tcp\n    return await self._backend.connect_tcp(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\anyio.py", line 113, in connect_tcp\n    with map_exceptions(exc_map):\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_exceptions.py", line 14, in map_exceptions\n    raise to_exc(exc) from exc\n', 'httpcore.ConnectError: [Errno 11001] getaddrinfo failed\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1529, in request\n    response = await self._client.send(\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1629, in send\n    response = await self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\n', 'httpx.ConnectError: [Errno 11001] getaddrinfo failed\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\single_tool_batch.py", line 217, in _infer_calls_for_single_tool\n    generation_info, inference_output = await self._run_inference(\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\single_tool_batch.py", line 800, in _run_inference\n    inference = await self._schematic_generator.generate(\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 135, in wrapped_func\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 144, in wrapped_func\n    return await policy.apply(state, func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 65, in apply\n    raise e\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 60, in apply\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 144, in wrapped_func\n    return await policy.apply(state, func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 60, in apply\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 125, in wrapped_func\n    return await func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\adapters\\nlp\\openai_service.py", line 137, in generate\n    return await self._do_generate(prompt, hints)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\adapters\\nlp\\openai_service.py", line 193, in _do_generate\n    response = await self._client.chat.completions.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\resources\\chat\\completions\\completions.py", line 2585, in create\n    return await self._post(\n           ^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1794, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1561, in request\n    raise APIConnectionError(request=request) from err\n', 'openai.APIConnectionError: Connection error.\n'][0m
+[2m2025-11-08T14:00:52.745440Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:52.751715Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:52.885701Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:52.887723Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:55.104445Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:55.106434Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:55.197634Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:55.201629Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:58.358086Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:58.361610Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:58.364622Z[0m [[33m[1mwarning  [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] SingleToolBatch attempt 1 failed: ['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 101, in map_httpcore_exceptions\n    yield\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 256, in handle_async_request\n    raise exc from None\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 101, in handle_async_request\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 78, in handle_async_request\n    stream = await self._connect(request)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 124, in _connect\n    stream = await self._network_backend.connect_tcp(**kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\auto.py", line 31, in connect_tcp\n    return await self._backend.connect_tcp(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\anyio.py", line 113, in connect_tcp\n    with map_exceptions(exc_map):\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_exceptions.py", line 14, in map_exceptions\n    raise to_exc(exc) from exc\n', 'httpcore.ConnectError: [Errno 11001] getaddrinfo failed\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1529, in request\n    response = await self._client.send(\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1629, in send\n    response = await self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\n', 'httpx.ConnectError: [Errno 11001] getaddrinfo failed\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\single_tool_batch.py", line 217, in _infer_calls_for_single_tool\n    generation_info, inference_output = await self._run_inference(\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\single_tool_batch.py", line 800, in _run_inference\n    inference = await self._schematic_generator.generate(\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 135, in wrapped_func\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 144, in wrapped_func\n    return await policy.apply(state, func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 65, in apply\n    raise e\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 60, in apply\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 144, in wrapped_func\n    return await policy.apply(state, func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 60, in apply\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 125, in wrapped_func\n    return await func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\adapters\\nlp\\openai_service.py", line 137, in generate\n    return await self._do_generate(prompt, hints)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\adapters\\nlp\\openai_service.py", line 193, in _do_generate\n    response = await self._client.chat.completions.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\resources\\chat\\completions\\completions.py", line 2585, in create\n    return await self._post(\n           ^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1794, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1561, in request\n    raise APIConnectionError(request=request) from err\n', 'openai.APIConnectionError: Connection error.\n'][0m
+[2m2025-11-08T14:00:58.543267Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:58.547029Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:58.549018Z[0m [[33m[1mwarning  [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] SingleToolBatch attempt 1 failed: ['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 101, in map_httpcore_exceptions\n    yield\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 256, in handle_async_request\n    raise exc from None\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 101, in handle_async_request\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 78, in handle_async_request\n    stream = await self._connect(request)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 124, in _connect\n    stream = await self._network_backend.connect_tcp(**kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\auto.py", line 31, in connect_tcp\n    return await self._backend.connect_tcp(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\anyio.py", line 113, in connect_tcp\n    with map_exceptions(exc_map):\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_exceptions.py", line 14, in map_exceptions\n    raise to_exc(exc) from exc\n', 'httpcore.ConnectError: [Errno 11001] getaddrinfo failed\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1529, in request\n    response = await self._client.send(\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1629, in send\n    response = await self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\n', 'httpx.ConnectError: [Errno 11001] getaddrinfo failed\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\single_tool_batch.py", line 217, in _infer_calls_for_single_tool\n    generation_info, inference_output = await self._run_inference(\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\single_tool_batch.py", line 800, in _run_inference\n    inference = await self._schematic_generator.generate(\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 135, in wrapped_func\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 144, in wrapped_func\n    return await policy.apply(state, func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 65, in apply\n    raise e\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 60, in apply\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 144, in wrapped_func\n    return await policy.apply(state, func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 60, in apply\n    return await func(state, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\nlp\\policies.py", line 125, in wrapped_func\n    return await func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\adapters\\nlp\\openai_service.py", line 137, in generate\n    return await self._do_generate(prompt, hints)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\adapters\\nlp\\openai_service.py", line 193, in _do_generate\n    response = await self._client.chat.completions.create(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\resources\\chat\\completions\\completions.py", line 2585, in create\n    return await self._post(\n           ^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1794, in post\n    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\openai\\_base_client.py", line 1561, in request\n    raise APIConnectionError(request=request) from err\n', 'openai.APIConnectionError: Connection error.\n'][0m
+[2m2025-11-08T14:00:59.760566Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:59.763568Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:save_user_name)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:00:59.884931Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] LLM Request (SingleToolBatchSchema) failed[0m
+[2m2025-11-08T14:00:59.887484Z[0m [[31m[1merror    [0m] [1m[RqVV8uqJAdA::process][ToolCaller][Evaluation(built-in:quick_greeting_check)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)][OpenAISchematicGenerator][LLM Request (SingleToolBatchSchema)] Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+ httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1529, in request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+   File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+ httpx.ConnectError: [Errno 11001] getaddrinfo failed
+ 
+The above exception was the direct cause of the following exception:
+
+ Traceback (most recent call last):
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 275, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\loggers.py", line 411, in operation
+    yield
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 137, in generate
+    return await self._do_generate(prompt, hints)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\adapters\nlp\openai_service.py", line 193, in _do_generate
+    response = await self._client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\openai\_base_client.py", line 1561, in request
+    raise APIConnectionError(request=request) from err
+ openai.APIConnectionError: Connection error.
+[0m
+[2m2025-11-08T14:02:21.329421Z[0m [[33m[1mwarning  [0m] [1m[RqVV8uqJAdA::process][GuidelineMatcher][Processing response analysis batches][GenericResponseAnalysisBatch][1 guidelines in 1 batches (batch size=5)][Batch of 1 guidelines][OpenAISchematicGenerator][LLM Request (GenericResponseAnalysisSchema)] LLM Request (GenericResponseAnalysisSchema) cancelled after 46.957 seconds[0m
+[2m2025-11-08T14:02:21.330426Z[0m [[33m[1mwarning  [0m] [1m[RqVV8uqJAdA::process][GuidelineMatcher][Processing response analysis batches][GenericResponseAnalysisBatch][1 guidelines in 1 batches (batch size=5)][Batch of 1 guidelines][OpenAISchematicGenerator][LLM Request (GenericResponseAnalysisSchema)] Batch of 1 guidelines cancelled after 46.96 seconds[0m
+[2m2025-11-08T14:02:21.331413Z[0m [[33m[1mwarning  [0m] [1m[RqVV8uqJAdA::process][GuidelineMatcher][Processing response analysis batches][GenericResponseAnalysisBatch][1 guidelines in 1 batches (batch size=5)] 1 guidelines in 1 batches (batch size=5) cancelled after 46.961 seconds[0m
+[2m2025-11-08T14:02:21.331413Z[0m [[33m[1mwarning  [0m] [1m[RqVV8uqJAdA::process][GuidelineMatcher][Processing response analysis batches] Processing response analysis batches cancelled after 46.961 seconds[0m
+[2m2025-11-08T14:02:21.332422Z[0m [[32m[1minfo     [0m] [1m[RqVV8uqJAdA::process][GuidelineMatcher][Processing response analysis batches] Processing context for session 2kOeP37b6B finished in 118.097 seconds[0m
+[2m2025-11-08T14:03:51.447611Z[0m [[31m[1merror    [0m] [1m[Rx5m2XEmWeB::process][ToolCaller] Execution::Result: Tool call failed (built-in:generate_product_presentation/mUDlhvdVOd)
+['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\tool_caller.py", line 263, in _run_tool\n    result = await service.call_tool(\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 943, in call_tool\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 933, in call_tool\n    raise ToolExecutionError(\n', 'parlant.core.tools.ToolExecutionError: Tool error (tool=\'generate_product_presentation\'): url=\'http://127.0.0.1:8818\', arguments=\'{\'products_json\': \'{"query": "wedding outfit suggestions", "applied_filters": {}, "total_found": 8, "items": [{"product_id": "www.nonasties.in#azul-blue-organic-cotton-tiered-dress-for-women-online", "title": "azul blue tiered dress", "brand": "nonasties", "category": "midi smock dresses", "price_inr": 5299.0, "discount_pct": 0.0, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/azul-blue-organic-cotton-tiered-dress-for-women-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/AzulBlueTieredDress13.jpg?v=1701129256", "score": 0.6119381}, {"product_id": "www.nonasties.in#scoop-dress-bloom", "title": "bloom scoop dress", "brand": "nonasties", "category": "floral print sundresses", "price_inr": 1999.0, "discount_pct": 60.01, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/scoop-dress-bloom", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/BloomScoopDress2_2a0402a0-1b0d-4452-9d68-04173f6341e3.jpg?v=1705386592", "score": 0.62355965}, {"product_id": "www.nonasties.in#shirt-dress-candy-stripe", "title": "candy stripe shirt dress", "brand": "nonasties", "category": "casual shirt dresses", "price_inr": 4299.0, "discount_pct": 0.0, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/shirt-dress-candy-stripe", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/CandyStripeShirtDress6.jpg?v=1690450134", "score": 0.6238332}, {"product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1", "title": "tuxedo black 2 piece suit", "brand": "pantproject", "category": "single-breasted tuxedos", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["38", "40", "42", "44", "46", "50"], "url": "https://pantproject.com/products/tuxedo-black-2-pieice-suit-1", "image": null, "score": 0.6205494}, {"product_id": "www.nonasties.in#beach-organic-cotton-shirt-dress-for-women-online", "title": "beach shirt dress", "brand": "nonasties", "category": "casual shirt dresses", "price_inr": 4999.0, "discount_pct": 0.0, "in_stock": true, "colors_available": [], "sizes_available": ["S", "M"], "url": "https://www.nonasties.in/products/beach-organic-cotton-shirt-dress-for-women-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/Beach_Shirt_Dress_1.jpg?v=1752738373", "score": 0.6185459}, {"product_id": "www.nonasties.in#scoop-dress-infinity", "title": "infinity scoop dress", "brand": "nonasties", "category": "sundresses", "price_inr": 1999.0, "discount_pct": 53.5, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/scoop-dress-infinity", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/InfinityScoopDress4.jpg?v=1696417518", "score": 0.628965}, {"product_id": "www.nonasties.in#marmalade-organic-cotton-shirt-dress-for-women-online", "title": "marmalade shirt dress", "brand": "nonasties", "category": "casual shirt dresses", "price_inr": 4999.0, "discount_pct": 0.0, "in_stock": true, "colors_available": [], "sizes_available": ["XS", "S", "M", "L"], "url": "https://www.nonasties.in/products/marmalade-organic-cotton-shirt-dress-for-women-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/MarmaladeShirtDress3.jpg?v=1752487550", "score": 0.6119698}, {"product_id": "www.nonasties.in#mocha-stripe-brown-organic-cotton-summer-swing-dress-for-women-online", "title": "mocha stripe swing dress", "brand": "nonasties", "category": "swing dresses", "price_inr": 1999.0, "discount_pct": 53.5, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/mocha-stripe-brown-organic-cotton-summer-swing-dress-for-women-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/products/mocha-stripe-swing-dress-no-nasties-organic-cotton-clothes.jpg?v=1682578589", "score": 0.61513364}]}\', \'user_context_json\': \'{"user_name": "Aaryan", "preferences": [], "is_returning": false}\', \'query_info_json\': \'{"intent": "product_search", "confidence": 0.5, "normalized_query": "I am aaryan and I want some suggestions to wear on my wedding", "extracted_entities": {}}\'}\', error: unhashable type: \'slice\'\n'][0m
+[2m2025-11-08T14:03:51.447611Z[0m [[31m[1merror    [0m] [1m[Rx5m2XEmWeB::process][ToolCaller] Execution::Error: ToolId: built-in:generate_product_presentation', Arguments:
 {
-  "text": "I love Black color honestly"
+  "products_json": "{\"query\": \"wedding outfit suggestions\", \"applied_filters\": {}, \"total_found\": 8, \"items\": [{\"product_id\": \"www.nonasties.in#azul-blue-organic-cotton-tiered-dress-for-women-online\", \"title\": \"azul blue tiered dress\", \"brand\": \"nonasties\", \"category\": \"midi smock dresses\", \"price_inr\": 5299.0, \"discount_pct\": 0.0, \"in_stock\": false, \"colors_available\": [], \"sizes_available\": [], \"url\": \"https://www.nonasties.in/products/azul-blue-organic-cotton-tiered-dress-for-women-online\", \"image\": \"https://cdn.shopify.com/s/files/1/0068/5152/files/AzulBlueTieredDress13.jpg?v=1701129256\", \"score\": 0.6119381}, {\"product_id\": \"www.nonasties.in#scoop-dress-bloom\", \"title\": \"bloom scoop dress\", \"brand\": \"nonasties\", \"category\": \"floral print sundresses\", \"price_inr\": 1999.0, \"discount_pct\": 60.01, \"in_stock\": false, \"colors_available\": [], \"sizes_available\": [], \"url\": \"https://www.nonasties.in/products/scoop-dress-bloom\", \"image\": \"https://cdn.shopify.com/s/files/1/0068/5152/files/BloomScoopDress2_2a0402a0-1b0d-4452-9d68-04173f6341e3.jpg?v=1705386592\", \"score\": 0.62355965}, {\"product_id\": \"www.nonasties.in#shirt-dress-candy-stripe\", \"title\": \"candy stripe shirt dress\", \"brand\": \"nonasties\", \"category\": \"casual shirt dresses\", \"price_inr\": 4299.0, \"discount_pct\": 0.0, \"in_stock\": false, \"colors_available\": [], \"sizes_available\": [], \"url\": \"https://www.nonasties.in/products/shirt-dress-candy-stripe\", \"image\": \"https://cdn.shopify.com/s/files/1/0068/5152/files/CandyStripeShirtDress6.jpg?v=1690450134\", \"score\": 0.6238332}, {\"product_id\": \"pantproject.com#tuxedo-black-2-pieice-suit-1\", \"title\": \"tuxedo black 2 piece suit\", \"brand\": \"pantproject\", \"category\": \"single-breasted tuxedos\", \"price_inr\": 5995.0, \"discount_pct\": 50.0, \"in_stock\": true, \"colors_available\": [], \"sizes_available\": [\"38\", \"40\", \"42\", \"44\", \"46\", \"50\"], \"url\": \"https://pantproject.com/products/tuxedo-black-2-pieice-suit-1\", \"image\": null, \"score\": 0.6205494}, {\"product_id\": \"www.nonasties.in#beach-organic-cotton-shirt-dress-for-women-online\", \"title\": \"beach shirt dress\", \"brand\": \"nonasties\", \"category\": \"casual shirt dresses\", \"price_inr\": 4999.0, \"discount_pct\": 0.0, \"in_stock\": true, \"colors_available\": [], \"sizes_available\": [\"S\", \"M\"], \"url\": \"https://www.nonasties.in/products/beach-organic-cotton-shirt-dress-for-women-online\", \"image\": \"https://cdn.shopify.com/s/files/1/0068/5152/files/Beach_Shirt_Dress_1.jpg?v=1752738373\", \"score\": 0.6185459}, {\"product_id\": \"www.nonasties.in#scoop-dress-infinity\", \"title\": \"infinity scoop dress\", \"brand\": \"nonasties\", \"category\": \"sundresses\", \"price_inr\": 1999.0, \"discount_pct\": 53.5, \"in_stock\": false, \"colors_available\": [], \"sizes_available\": [], \"url\": \"https://www.nonasties.in/products/scoop-dress-infinity\", \"image\": \"https://cdn.shopify.com/s/files/1/0068/5152/files/InfinityScoopDress4.jpg?v=1696417518\", \"score\": 0.628965}, {\"product_id\": \"www.nonasties.in#marmalade-organic-cotton-shirt-dress-for-women-online\", \"title\": \"marmalade shirt dress\", \"brand\": \"nonasties\", \"category\": \"casual shirt dresses\", \"price_inr\": 4999.0, \"discount_pct\": 0.0, \"in_stock\": true, \"colors_available\": [], \"sizes_available\": [\"XS\", \"S\", \"M\", \"L\"], \"url\": \"https://www.nonasties.in/products/marmalade-organic-cotton-shirt-dress-for-women-online\", \"image\": \"https://cdn.shopify.com/s/files/1/0068/5152/files/MarmaladeShirtDress3.jpg?v=1752487550\", \"score\": 0.6119698}, {\"product_id\": \"www.nonasties.in#mocha-stripe-brown-organic-cotton-summer-swing-dress-for-women-online\", \"title\": \"mocha stripe swing dress\", \"brand\": \"nonasties\", \"category\": \"swing dresses\", \"price_inr\": 1999.0, \"discount_pct\": 53.5, \"in_stock\": false, \"colors_available\": [], \"sizes_available\": [], \"url\": \"https://www.nonasties.in/products/mocha-stripe-brown-organic-cotton-summer-swing-dress-for-women-online\", \"image\": \"https://cdn.shopify.com/s/files/1/0068/5152/products/mocha-stripe-swing-dress-no-nasties-organic-cotton-clothes.jpg?v=1682578589\", \"score\": 0.61513364}]}",
+  "user_context_json": "{\"user_name\": \"Aaryan\", \"preferences\": [], \"is_returning\": false}",
+  "query_info_json": "{\"intent\": \"product_search\", \"confidence\": 0.5, \"normalized_query\": \"I am aaryan and I want some suggestions to wear on my wedding\", \"extracted_entities\": {}}"
 }
 Traceback:
 Traceback (most recent call last):
@@ -42,15 +1157,164 @@ Traceback (most recent call last):
   File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\services\tools\plugins.py", line 933, in call_tool
     raise ToolExecutionError(
 
-parlant.core.tools.ToolExecutionError: Tool error (tool='analyze_query'): url='http://127.0.0.1:8818', arguments='{'text': 'I love Black color honestly'}', error: 
+parlant.core.tools.ToolExecutionError: Tool error (tool='generate_product_presentation'): url='http://127.0.0.1:8818', arguments='{'products_json': '{"query": "wedding outfit suggestions", "applied_filters": {}, "total_found": 8, "items": [{"product_id": "www.nonasties.in#azul-blue-organic-cotton-tiered-dress-for-women-online", "title": "azul blue tiered dress", "brand": "nonasties", "category": "midi smock dresses", "price_inr": 5299.0, "discount_pct": 0.0, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/azul-blue-organic-cotton-tiered-dress-for-women-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/AzulBlueTieredDress13.jpg?v=1701129256", "score": 0.6119381}, {"product_id": "www.nonasties.in#scoop-dress-bloom", "title": "bloom scoop dress", "brand": "nonasties", "category": "floral print sundresses", "price_inr": 1999.0, "discount_pct": 60.01, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/scoop-dress-bloom", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/BloomScoopDress2_2a0402a0-1b0d-4452-9d68-04173f6341e3.jpg?v=1705386592", "score": 0.62355965}, {"product_id": "www.nonasties.in#shirt-dress-candy-stripe", "title": "candy stripe shirt dress", "brand": "nonasties", "category": "casual shirt dresses", "price_inr": 4299.0, "discount_pct": 0.0, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/shirt-dress-candy-stripe", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/CandyStripeShirtDress6.jpg?v=1690450134", "score": 0.6238332}, {"product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1", "title": "tuxedo black 2 piece suit", "brand": "pantproject", "category": "single-breasted tuxedos", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["38", "40", "42", "44", "46", "50"], "url": "https://pantproject.com/products/tuxedo-black-2-pieice-suit-1", "image": null, "score": 0.6205494}, {"product_id": "www.nonasties.in#beach-organic-cotton-shirt-dress-for-women-online", "title": "beach shirt dress", "brand": "nonasties", "category": "casual shirt dresses", "price_inr": 4999.0, "discount_pct": 0.0, "in_stock": true, "colors_available": [], "sizes_available": ["S", "M"], "url": "https://www.nonasties.in/products/beach-organic-cotton-shirt-dress-for-women-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/Beach_Shirt_Dress_1.jpg?v=1752738373", "score": 0.6185459}, {"product_id": "www.nonasties.in#scoop-dress-infinity", "title": "infinity scoop dress", "brand": "nonasties", "category": "sundresses", "price_inr": 1999.0, "discount_pct": 53.5, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/scoop-dress-infinity", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/InfinityScoopDress4.jpg?v=1696417518", "score": 0.628965}, {"product_id": "www.nonasties.in#marmalade-organic-cotton-shirt-dress-for-women-online", "title": "marmalade shirt dress", "brand": "nonasties", "category": "casual shirt dresses", "price_inr": 4999.0, "discount_pct": 0.0, "in_stock": true, "colors_available": [], "sizes_available": ["XS", "S", "M", "L"], "url": "https://www.nonasties.in/products/marmalade-organic-cotton-shirt-dress-for-women-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/files/MarmaladeShirtDress3.jpg?v=1752487550", "score": 0.6119698}, {"product_id": "www.nonasties.in#mocha-stripe-brown-organic-cotton-summer-swing-dress-for-women-online", "title": "mocha stripe swing dress", "brand": "nonasties", "category": "swing dresses", "price_inr": 1999.0, "discount_pct": 53.5, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/mocha-stripe-brown-organic-cotton-summer-swing-dress-for-women-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/products/mocha-stripe-swing-dress-no-nasties-organic-cotton-clothes.jpg?v=1682578589", "score": 0.61513364}]}', 'user_context_json': '{"user_name": "Aaryan", "preferences": [], "is_returning": false}', 'query_info_json': '{"intent": "product_search", "confidence": 0.5, "normalized_query": "I am aaryan and I want some suggestions to wear on my wedding", "extracted_entities": {}}'}', error: unhashable type: 'slice'
 [0m
-[2m2025-11-08T07:18:00.607021Z[0m [[32m[1minfo     [0m] [1m[RX6YJGquUeW::process] Processing context for session JGZNu3QVIl finished in 75.665 seconds[0m
-[2m2025-11-08T07:20:53.849133Z[0m [[32m[1minfo     [0m] [1m[<main>] Parlant server version 3.0.3[0m
-[2m2025-11-08T07:20:53.849133Z[0m [[32m[1minfo     [0m] [1m[<main>] Using home directory 'D:\muse3.0\Parlant_mem0\fashion-bot\parlant-data'[0m
-[2m2025-11-08T07:20:53.849133Z[0m [[32m[1minfo     [0m] [1m[<main>] No external modules selected[0m
-[2m2025-11-08T07:20:54.359759Z[0m [[32m[1minfo     [0m] [1m[<main>] Initialized OpenAIService[0m
-[2m2025-11-08T07:21:13.856755Z[0m [[32m[1minfo     [0m] [1m[<main>] .-----------------------------------------.[0m
-[2m2025-11-08T07:21:13.856755Z[0m [[32m[1minfo     [0m] [1m[<main>] | Server is ready for some serious action |[0m
-[2m2025-11-08T07:21:13.856755Z[0m [[32m[1minfo     [0m] [1m[<main>] '-----------------------------------------'[0m
-[2m2025-11-08T07:21:13.856755Z[0m [[32m[1minfo     [0m] [1m[<main>] Server authorization policy: development[0m
-[2m2025-11-08T07:21:13.856755Z[0m [[32m[1minfo     [0m] [1m[<main>] Try the Sandbox UI at http://localhost:8800[0m
+[2m2025-11-08T14:03:51.463663Z[0m [[33m[1mwarning  [0m] [1m[Rx5m2XEmWeB::process] Reached max tool call iterations (3)[0m
+[2m2025-11-08T14:04:21.209231Z[0m [[32m[1minfo     [0m] [1m[Rx5m2XEmWeB::process] Processing context for session 2kOeP37b6B finished in 119.875 seconds[0m
+[2m2025-11-08T14:06:15.707957Z[0m [[31m[1merror    [0m] [1m[RRBqjNC0Ple::process][ToolCaller] Execution::Result: Tool call failed (built-in:analyze_catalog_schema/heRUYDHm8j)
+['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 101, in map_httpcore_exceptions\n    yield\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 394, in handle_async_request\n    resp = await self._pool.handle_async_request(req)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 256, in handle_async_request\n    raise exc from None\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py", line 236, in handle_async_request\n    response = await connection.handle_async_request(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\connection.py", line 103, in handle_async_request\n    return await self._connection.handle_async_request(request)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\http11.py", line 136, in handle_async_request\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\http11.py", line 106, in handle_async_request\n    ) = await self._receive_response_headers(**kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\http11.py", line 177, in _receive_response_headers\n    event = await self._receive_event(timeout=timeout)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_async\\http11.py", line 217, in _receive_event\n    data = await self._network_stream.read(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_backends\\anyio.py", line 32, in read\n    with map_exceptions(exc_map):\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpcore\\_exceptions.py", line 14, in map_exceptions\n    raise to_exc(exc) from exc\n', 'httpcore.ReadError\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 859, in call_tool\n    async with self._http_client.stream(\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 204, in __aenter__\n    return await anext(self.gen)\n           ^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1583, in stream\n    response = await self.send(\n               ^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1629, in send\n    response = await self._send_handling_auth(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1657, in _send_handling_auth\n    response = await self._send_handling_redirects(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1694, in _send_handling_redirects\n    response = await self._send_single_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_client.py", line 1730, in _send_single_request\n    response = await transport.handle_async_request(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 393, in handle_async_request\n    with map_httpcore_exceptions():\n', '  File "C:\\Users\\Vedant\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py", line 155, in __exit__\n    self.gen.throw(typ, value, traceback)\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\httpx\\_transports\\default.py", line 118, in map_httpcore_exceptions\n    raise mapped_exc(message) from exc\n', 'httpx.ReadError\n', '\nThe above exception was the direct cause of the following exception:\n\n', 'Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\tool_caller.py", line 263, in _run_tool\n    result = await service.call_tool(\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 945, in call_tool\n    raise ToolExecutionError(tool_name=name) from exc\n', "parlant.core.tools.ToolExecutionError: Tool error (tool='analyze_catalog_schema')\n"][0m
+[2m2025-11-08T14:06:15.709963Z[0m [[31m[1merror    [0m] [1m[RRBqjNC0Ple::process][ToolCaller] Execution::Error: ToolId: built-in:analyze_catalog_schema', Arguments:
+{}
+Traceback:
+Traceback (most recent call last):
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+
+  File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+
+httpcore.ReadError
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\services\tools\plugins.py", line 859, in call_tool
+    async with self._http_client.stream(
+
+  File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 204, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1583, in stream
+    response = await self.send(
+               ^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+
+  File "C:\Users\Vedant\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+
+httpx.ReadError
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\engines\alpha\tool_calling\tool_caller.py", line 263, in _run_tool
+    result = await service.call_tool(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\services\tools\plugins.py", line 945, in call_tool
+    raise ToolExecutionError(tool_name=name) from exc
+
+parlant.core.tools.ToolExecutionError: Tool error (tool='analyze_catalog_schema')
+[0m
+[2m2025-11-08T14:07:03.612004Z[0m [[31m[1merror    [0m] [1m[RRBqjNC0Ple::process][ToolCaller] Execution::Result: Tool call failed (built-in:generate_product_presentation/Gqo1aywpSE)
+['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\tool_caller.py", line 263, in _run_tool\n    result = await service.call_tool(\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 943, in call_tool\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 933, in call_tool\n    raise ToolExecutionError(\n', 'parlant.core.tools.ToolExecutionError: Tool error (tool=\'generate_product_presentation\'): url=\'http://127.0.0.1:8818\', arguments=\'{\'products_json\': \'{"query": "wedding outfit suggestions", "applied_filters": {}, "total_found": 8, "items": [{"product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1", "title": "tuxedo black 2 piece suit", "brand": "pantproject", "category": "single-breasted tuxedos", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["38", "40", "42", "44", "46", "50"], "url": "https://pantproject.com/products/tuxedo-black-2-pieice-suit-1", "image": null, "score": 0.6205494}]}\', \'user_context_json\': \'{"user_name": "Aaryan", "preferences": [], "is_returning": false}\', \'query_info_json\': \'{"intent": "product_search", "confidence": 0.5, "normalized_query": "I am aaryan and I want some suggestions to wear on my wedding", "extracted_entities": {}}\'}\', error: unhashable type: \'slice\'\n'][0m
+[2m2025-11-08T14:07:03.613993Z[0m [[31m[1merror    [0m] [1m[RRBqjNC0Ple::process][ToolCaller] Execution::Error: ToolId: built-in:generate_product_presentation', Arguments:
+{
+  "products_json": "{\"query\": \"wedding outfit suggestions\", \"applied_filters\": {}, \"total_found\": 8, \"items\": [{\"product_id\": \"pantproject.com#tuxedo-black-2-pieice-suit-1\", \"title\": \"tuxedo black 2 piece suit\", \"brand\": \"pantproject\", \"category\": \"single-breasted tuxedos\", \"price_inr\": 5995.0, \"discount_pct\": 50.0, \"in_stock\": true, \"colors_available\": [], \"sizes_available\": [\"38\", \"40\", \"42\", \"44\", \"46\", \"50\"], \"url\": \"https://pantproject.com/products/tuxedo-black-2-pieice-suit-1\", \"image\": null, \"score\": 0.6205494}]}",
+  "user_context_json": "{\"user_name\": \"Aaryan\", \"preferences\": [], \"is_returning\": false}",
+  "query_info_json": "{\"intent\": \"product_search\", \"confidence\": 0.5, \"normalized_query\": \"I am aaryan and I want some suggestions to wear on my wedding\", \"extracted_entities\": {}}"
+}
+Traceback:
+Traceback (most recent call last):
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\engines\alpha\tool_calling\tool_caller.py", line 263, in _run_tool
+    result = await service.call_tool(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\services\tools\plugins.py", line 943, in call_tool
+    raise exc
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\services\tools\plugins.py", line 933, in call_tool
+    raise ToolExecutionError(
+
+parlant.core.tools.ToolExecutionError: Tool error (tool='generate_product_presentation'): url='http://127.0.0.1:8818', arguments='{'products_json': '{"query": "wedding outfit suggestions", "applied_filters": {}, "total_found": 8, "items": [{"product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1", "title": "tuxedo black 2 piece suit", "brand": "pantproject", "category": "single-breasted tuxedos", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["38", "40", "42", "44", "46", "50"], "url": "https://pantproject.com/products/tuxedo-black-2-pieice-suit-1", "image": null, "score": 0.6205494}]}', 'user_context_json': '{"user_name": "Aaryan", "preferences": [], "is_returning": false}', 'query_info_json': '{"intent": "product_search", "confidence": 0.5, "normalized_query": "I am aaryan and I want some suggestions to wear on my wedding", "extracted_entities": {}}'}', error: unhashable type: 'slice'
+[0m
+[2m2025-11-08T14:07:26.203812Z[0m [[31m[1merror    [0m] [1m[RRBqjNC0Ple::process][ToolCaller] Execution::Result: Tool call failed (built-in:generate_product_presentation/pUdUdkD7p0)
+['Traceback (most recent call last):\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\engines\\alpha\\tool_calling\\tool_caller.py", line 263, in _run_tool\n    result = await service.call_tool(\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 943, in call_tool\n    raise exc\n', '  File "D:\\muse3.0\\Parlant_mem0\\myenv\\Lib\\site-packages\\parlant\\core\\services\\tools\\plugins.py", line 933, in call_tool\n    raise ToolExecutionError(\n', 'parlant.core.tools.ToolExecutionError: Tool error (tool=\'generate_product_presentation\'): url=\'http://127.0.0.1:8818\', arguments=\'{\'products_json\': \'{"query": "modern suit for wedding", "applied_filters": {}, "total_found": 8, "items": [{"product_id": "thehouseofrare.com#markas-mens-suits-black", "title": "rare rabbit men\\\'s markas black polyester striped print tailored fit full sleeve lapel neck suits", "brand": "thehouseofrare", "category": "modern fit single breasted", "price_inr": 10999.0, "discount_pct": 56.0, "in_stock": true, "colors_available": ["black"], "sizes_available": ["s-38", "m-40", "l-42", "xl-44", "xxl-46"], "url": "https://thehouseofrare.com/products/markas-mens-suits-black", "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/Markas-black0018Hero_4de5569d-f0f7-40b2-a1e0-6ddcb2a8c471.jpg?v=1747223514", "score": 0.6647279}, {"product_id": "thehouseofrare.com#mack-mens-suits-dark-navy", "title": "rare rabbit men\\\'s mack dark navy polyester checked print tailored fit full sleeve lapel neck suits", "brand": "thehouseofrare", "category": "modern fit single breasted", "price_inr": 7199.0, "discount_pct": 40.0, "in_stock": true, "colors_available": ["dark navy"], "sizes_available": ["s-38", "m-40", "l-42", "xl-44", "xxl-46"], "url": "https://thehouseofrare.com/products/mack-mens-suits-dark-navy", "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/MACK-DK-NAVY-BLAZER0272.jpg?v=1743586500", "score": 0.6381259}, {"product_id": "pantproject.com#delicate-grey-2-piece-suit", "title": "delicate grey 2 piece suit", "brand": "pantproject", "category": "grey suits", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["36", "38", "40", "42", "44", "46"], "url": "https://pantproject.com/products/delicate-grey-2-piece-suit", "image": null, "score": 0.6356199}, {"product_id": "pantproject.com#persian-blue-2-piece-suit", "title": "persian blue 2 piece suit", "brand": "pantproject", "category": "2-button single breasted", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["36", "40", "42", "44", "46", "48"], "url": "https://pantproject.com/products/persian-blue-2-piece-suit", "image": null, "score": 0.63452697}, {"product_id": "thehouseofrare.com#markus-mens-suits-black", "title": "rare rabbit men\\\'s markus black polyester plain tailored fit full sleeve lapel neck suits", "brand": "thehouseofrare", "category": "black single breasted", "price_inr": 11749.0, "discount_pct": 53.0, "in_stock": true, "colors_available": ["black"], "sizes_available": ["s-38", "m-40", "l-42", "xl-44", "xxl-46"], "url": "https://thehouseofrare.com/products/markus-mens-suits-black", "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/Markas-black0018Hero.jpg?v=1747223653", "score": 0.63149536}, {"product_id": "thehouseofrare.com#edmon-mens-suits-black", "title": "rare rabbit men\\\'s edmon black viscose checked print tailored fit full sleeve lapel neck suits", "brand": "thehouseofrare", "category": "2-button single breasted", "price_inr": 8639.0, "discount_pct": 28.0, "in_stock": true, "colors_available": ["black"], "sizes_available": ["s-38", "m-40", "l-42", "xl-44", "xxl-46"], "url": "https://thehouseofrare.com/products/edmon-mens-suits-black", "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/EDMON-BLACK-BLAZER2305.jpg?v=1743586594", "score": 0.6337503}, {"product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1", "title": "tuxedo black 2 piece suit", "brand": "pantproject", "category": "single-breasted tuxedos", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["38", "40", "42", "44", "46", "50"], "url": "https://pantproject.com/products/tuxedo-black-2-pieice-suit-1", "image": null, "score": 0.68133414}, {"product_id": "www.nonasties.in#atlantic-blue-organic-cotton-full-sleeve-knit-shirt-for-men-online", "title": "atlantic knit shirt", "brand": "nonasties", "category": "formal evening shirts", "price_inr": 2799.0, "discount_pct": 0.0, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/atlantic-blue-organic-cotton-full-sleeve-knit-shirt-for-men-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/products/atlantic-knit-shirt-no-nasties-organic-cotton-clothes-2.jpg?v=1667127062", "score": 0.6340148}]}\', \'user_context_json\': \'{"user_name": "Aaryan", "preferences": [], "is_returning": false}\', \'query_info_json\': \'{"intent": "product_search", "confidence": 0.5, "normalized_query": "A modern suit", "extracted_entities": {}}\'}\', error: unhashable type: \'slice\'\n'][0m
+[2m2025-11-08T14:07:26.205816Z[0m [[31m[1merror    [0m] [1m[RRBqjNC0Ple::process][ToolCaller] Execution::Error: ToolId: built-in:generate_product_presentation', Arguments:
+{
+  "products_json": "{\"query\": \"modern suit for wedding\", \"applied_filters\": {}, \"total_found\": 8, \"items\": [{\"product_id\": \"thehouseofrare.com#markas-mens-suits-black\", \"title\": \"rare rabbit men's markas black polyester striped print tailored fit full sleeve lapel neck suits\", \"brand\": \"thehouseofrare\", \"category\": \"modern fit single breasted\", \"price_inr\": 10999.0, \"discount_pct\": 56.0, \"in_stock\": true, \"colors_available\": [\"black\"], \"sizes_available\": [\"s-38\", \"m-40\", \"l-42\", \"xl-44\", \"xxl-46\"], \"url\": \"https://thehouseofrare.com/products/markas-mens-suits-black\", \"image\": \"https://cdn.shopify.com/s/files/1/0752/6435/files/Markas-black0018Hero_4de5569d-f0f7-40b2-a1e0-6ddcb2a8c471.jpg?v=1747223514\", \"score\": 0.6647279}, {\"product_id\": \"thehouseofrare.com#mack-mens-suits-dark-navy\", \"title\": \"rare rabbit men's mack dark navy polyester checked print tailored fit full sleeve lapel neck suits\", \"brand\": \"thehouseofrare\", \"category\": \"modern fit single breasted\", \"price_inr\": 7199.0, \"discount_pct\": 40.0, \"in_stock\": true, \"colors_available\": [\"dark navy\"], \"sizes_available\": [\"s-38\", \"m-40\", \"l-42\", \"xl-44\", \"xxl-46\"], \"url\": \"https://thehouseofrare.com/products/mack-mens-suits-dark-navy\", \"image\": \"https://cdn.shopify.com/s/files/1/0752/6435/files/MACK-DK-NAVY-BLAZER0272.jpg?v=1743586500\", \"score\": 0.6381259}, {\"product_id\": \"pantproject.com#delicate-grey-2-piece-suit\", \"title\": \"delicate grey 2 piece suit\", \"brand\": \"pantproject\", \"category\": \"grey suits\", \"price_inr\": 5995.0, \"discount_pct\": 50.0, \"in_stock\": true, \"colors_available\": [], \"sizes_available\": [\"36\", \"38\", \"40\", \"42\", \"44\", \"46\"], \"url\": \"https://pantproject.com/products/delicate-grey-2-piece-suit\", \"image\": null, \"score\": 0.6356199}, {\"product_id\": \"pantproject.com#persian-blue-2-piece-suit\", \"title\": \"persian blue 2 piece suit\", \"brand\": \"pantproject\", \"category\": \"2-button single breasted\", \"price_inr\": 5995.0, \"discount_pct\": 50.0, \"in_stock\": true, \"colors_available\": [], \"sizes_available\": [\"36\", \"40\", \"42\", \"44\", \"46\", \"48\"], \"url\": \"https://pantproject.com/products/persian-blue-2-piece-suit\", \"image\": null, \"score\": 0.63452697}, {\"product_id\": \"thehouseofrare.com#markus-mens-suits-black\", \"title\": \"rare rabbit men's markus black polyester plain tailored fit full sleeve lapel neck suits\", \"brand\": \"thehouseofrare\", \"category\": \"black single breasted\", \"price_inr\": 11749.0, \"discount_pct\": 53.0, \"in_stock\": true, \"colors_available\": [\"black\"], \"sizes_available\": [\"s-38\", \"m-40\", \"l-42\", \"xl-44\", \"xxl-46\"], \"url\": \"https://thehouseofrare.com/products/markus-mens-suits-black\", \"image\": \"https://cdn.shopify.com/s/files/1/0752/6435/files/Markas-black0018Hero.jpg?v=1747223653\", \"score\": 0.63149536}, {\"product_id\": \"thehouseofrare.com#edmon-mens-suits-black\", \"title\": \"rare rabbit men's edmon black viscose checked print tailored fit full sleeve lapel neck suits\", \"brand\": \"thehouseofrare\", \"category\": \"2-button single breasted\", \"price_inr\": 8639.0, \"discount_pct\": 28.0, \"in_stock\": true, \"colors_available\": [\"black\"], \"sizes_available\": [\"s-38\", \"m-40\", \"l-42\", \"xl-44\", \"xxl-46\"], \"url\": \"https://thehouseofrare.com/products/edmon-mens-suits-black\", \"image\": \"https://cdn.shopify.com/s/files/1/0752/6435/files/EDMON-BLACK-BLAZER2305.jpg?v=1743586594\", \"score\": 0.6337503}, {\"product_id\": \"pantproject.com#tuxedo-black-2-pieice-suit-1\", \"title\": \"tuxedo black 2 piece suit\", \"brand\": \"pantproject\", \"category\": \"single-breasted tuxedos\", \"price_inr\": 5995.0, \"discount_pct\": 50.0, \"in_stock\": true, \"colors_available\": [], \"sizes_available\": [\"38\", \"40\", \"42\", \"44\", \"46\", \"50\"], \"url\": \"https://pantproject.com/products/tuxedo-black-2-pieice-suit-1\", \"image\": null, \"score\": 0.68133414}, {\"product_id\": \"www.nonasties.in#atlantic-blue-organic-cotton-full-sleeve-knit-shirt-for-men-online\", \"title\": \"atlantic knit shirt\", \"brand\": \"nonasties\", \"category\": \"formal evening shirts\", \"price_inr\": 2799.0, \"discount_pct\": 0.0, \"in_stock\": false, \"colors_available\": [], \"sizes_available\": [], \"url\": \"https://www.nonasties.in/products/atlantic-blue-organic-cotton-full-sleeve-knit-shirt-for-men-online\", \"image\": \"https://cdn.shopify.com/s/files/1/0068/5152/products/atlantic-knit-shirt-no-nasties-organic-cotton-clothes-2.jpg?v=1667127062\", \"score\": 0.6340148}]}",
+  "user_context_json": "{\"user_name\": \"Aaryan\", \"preferences\": [], \"is_returning\": false}",
+  "query_info_json": "{\"intent\": \"product_search\", \"confidence\": 0.5, \"normalized_query\": \"A modern suit\", \"extracted_entities\": {}}"
+}
+Traceback:
+Traceback (most recent call last):
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\engines\alpha\tool_calling\tool_caller.py", line 263, in _run_tool
+    result = await service.call_tool(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\services\tools\plugins.py", line 943, in call_tool
+    raise exc
+
+  File "D:\muse3.0\Parlant_mem0\myenv\Lib\site-packages\parlant\core\services\tools\plugins.py", line 933, in call_tool
+    raise ToolExecutionError(
+
+parlant.core.tools.ToolExecutionError: Tool error (tool='generate_product_presentation'): url='http://127.0.0.1:8818', arguments='{'products_json': '{"query": "modern suit for wedding", "applied_filters": {}, "total_found": 8, "items": [{"product_id": "thehouseofrare.com#markas-mens-suits-black", "title": "rare rabbit men\'s markas black polyester striped print tailored fit full sleeve lapel neck suits", "brand": "thehouseofrare", "category": "modern fit single breasted", "price_inr": 10999.0, "discount_pct": 56.0, "in_stock": true, "colors_available": ["black"], "sizes_available": ["s-38", "m-40", "l-42", "xl-44", "xxl-46"], "url": "https://thehouseofrare.com/products/markas-mens-suits-black", "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/Markas-black0018Hero_4de5569d-f0f7-40b2-a1e0-6ddcb2a8c471.jpg?v=1747223514", "score": 0.6647279}, {"product_id": "thehouseofrare.com#mack-mens-suits-dark-navy", "title": "rare rabbit men\'s mack dark navy polyester checked print tailored fit full sleeve lapel neck suits", "brand": "thehouseofrare", "category": "modern fit single breasted", "price_inr": 7199.0, "discount_pct": 40.0, "in_stock": true, "colors_available": ["dark navy"], "sizes_available": ["s-38", "m-40", "l-42", "xl-44", "xxl-46"], "url": "https://thehouseofrare.com/products/mack-mens-suits-dark-navy", "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/MACK-DK-NAVY-BLAZER0272.jpg?v=1743586500", "score": 0.6381259}, {"product_id": "pantproject.com#delicate-grey-2-piece-suit", "title": "delicate grey 2 piece suit", "brand": "pantproject", "category": "grey suits", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["36", "38", "40", "42", "44", "46"], "url": "https://pantproject.com/products/delicate-grey-2-piece-suit", "image": null, "score": 0.6356199}, {"product_id": "pantproject.com#persian-blue-2-piece-suit", "title": "persian blue 2 piece suit", "brand": "pantproject", "category": "2-button single breasted", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["36", "40", "42", "44", "46", "48"], "url": "https://pantproject.com/products/persian-blue-2-piece-suit", "image": null, "score": 0.63452697}, {"product_id": "thehouseofrare.com#markus-mens-suits-black", "title": "rare rabbit men\'s markus black polyester plain tailored fit full sleeve lapel neck suits", "brand": "thehouseofrare", "category": "black single breasted", "price_inr": 11749.0, "discount_pct": 53.0, "in_stock": true, "colors_available": ["black"], "sizes_available": ["s-38", "m-40", "l-42", "xl-44", "xxl-46"], "url": "https://thehouseofrare.com/products/markus-mens-suits-black", "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/Markas-black0018Hero.jpg?v=1747223653", "score": 0.63149536}, {"product_id": "thehouseofrare.com#edmon-mens-suits-black", "title": "rare rabbit men\'s edmon black viscose checked print tailored fit full sleeve lapel neck suits", "brand": "thehouseofrare", "category": "2-button single breasted", "price_inr": 8639.0, "discount_pct": 28.0, "in_stock": true, "colors_available": ["black"], "sizes_available": ["s-38", "m-40", "l-42", "xl-44", "xxl-46"], "url": "https://thehouseofrare.com/products/edmon-mens-suits-black", "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/EDMON-BLACK-BLAZER2305.jpg?v=1743586594", "score": 0.6337503}, {"product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1", "title": "tuxedo black 2 piece suit", "brand": "pantproject", "category": "single-breasted tuxedos", "price_inr": 5995.0, "discount_pct": 50.0, "in_stock": true, "colors_available": [], "sizes_available": ["38", "40", "42", "44", "46", "50"], "url": "https://pantproject.com/products/tuxedo-black-2-pieice-suit-1", "image": null, "score": 0.68133414}, {"product_id": "www.nonasties.in#atlantic-blue-organic-cotton-full-sleeve-knit-shirt-for-men-online", "title": "atlantic knit shirt", "brand": "nonasties", "category": "formal evening shirts", "price_inr": 2799.0, "discount_pct": 0.0, "in_stock": false, "colors_available": [], "sizes_available": [], "url": "https://www.nonasties.in/products/atlantic-blue-organic-cotton-full-sleeve-knit-shirt-for-men-online", "image": "https://cdn.shopify.com/s/files/1/0068/5152/products/atlantic-knit-shirt-no-nasties-organic-cotton-clothes-2.jpg?v=1667127062", "score": 0.6340148}]}', 'user_context_json': '{"user_name": "Aaryan", "preferences": [], "is_returning": false}', 'query_info_json': '{"intent": "product_search", "confidence": 0.5, "normalized_query": "A modern suit", "extracted_entities": {}}'}', error: unhashable type: 'slice'
+[0m
+[2m2025-11-08T14:08:30.198363Z[0m [[32m[1minfo     [0m] [1m[RRBqjNC0Ple::process] Processing context for session 2kOeP37b6B finished in 217.812 seconds[0m
