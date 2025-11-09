@@ -167,6 +167,90 @@
         "agent_intention_condition": null,
         "internal_action": null
       }
+    },
+    {
+      "id": "1da3392992e7063aee9b7e846472e838",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "b4761064c3d09e8656f2f81eac0f0743",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "37ab3e2e9b9848ecf369211257a39346",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "e158896ba5badff08edb5e052dba6a1d",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "e7cc3a9d58ff16782e70e8dc4529c72a",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "3f45ab05200ec65575bea2db54a7859c",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides their name",
+          "agent_action": "The agent calls quick_greeting_check tool, greets warmly by name if returning, mentions trends, introduces as MuseBot if not returning, asks for the customer's name, and addresses the original message."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
     }
   ],
   "journey_evaluations_3.0.3": []
