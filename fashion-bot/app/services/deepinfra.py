@@ -7,12 +7,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-DI_OPENAI_BASE = "https://api.deepinfra.com/v1/openai"
-DI_INFER_BASE = "https://api.deepinfra.com/v1/inference"
+DI_OPENAI_BASE = os.getenv("DI_OPENAI_BASE", "https://api.deepinfra.com/v1/openai")
+DI_INFER_BASE = os.getenv("DI_INFER_BASE", "https://api.deepinfra.com/v1/inference")
 
 EMB_MODEL_CATALOG = os.getenv("EMB_MODEL_CATALOG", "Qwen/Qwen3-Embedding-4B")
 RERANK_MODEL = os.getenv("RERANK_MODEL", "Qwen/Qwen3-Reranker-4B")
 REQUEST_TIMEOUT = int(os.getenv("DEEPINFRA_TIMEOUT", "90"))
+BATCH_SIZE = int(os.getenv("EMBEDDING_BATCH_SIZE", "32"))
+EXPECTED_EMBEDDING_DIM = int(os.getenv("EXPECTED_EMBEDDING_DIM", "3840"))
 
 
 async def embed_catalog(texts: List[str]) -> List[List[float]]:
@@ -28,6 +30,7 @@ async def embed_catalog(texts: List[str]) -> List[List[float]]:
         
     Raises:
         httpx.HTTPError: If API request fails
+        ValueError: If DEEPINFRA_TOKEN not set
     """
     if not texts:
         return []
@@ -66,14 +69,17 @@ async def embed_catalog(texts: List[str]) -> List[List[float]]:
         
         return normalized.tolist()
     
-    except httpx.HTTPError as e:
-        print(f"[embed_catalog] HTTP error: {e}")
+    except httpx.HTTPStatusError as e:
+        print(f"[embed_catalog] HTTP {e.response.status_code} error: {e}")
+        raise
+    except httpx.TimeoutException as e:
+        print(f"[embed_catalog] Timeout error: {e}")
         raise
     except KeyError as e:
         print(f"[embed_catalog] Unexpected API response format: {e}")
         raise
     except Exception as e:
-        print(f"[embed_catalog] Unexpected error: {e}")
+        print(f"[embed_catalog] Unexpected error: {type(e).__name__}: {e}")
         raise
 
 
@@ -83,7 +89,7 @@ async def rerank_qwen(
     top_k: int = 8
 ) -> List[int]:
     """
-    Rerank documents using Qwen3-Reranker-0.6B.
+    Rerank documents using Qwen3-Reranker-4B.
     
     Args:
         query: Search query string
@@ -140,50 +146,60 @@ async def rerank_qwen(
         
         return ranked_indices[:min(top_k, len(documents))]
     
-    except httpx.HTTPError as e:
-        print(f"[rerank_qwen] HTTP error: {e}, falling back to original order")
+    except httpx.HTTPStatusError as e:
+        print(f"[rerank_qwen] HTTP {e.response.status_code} error, falling back to original order")
+        return list(range(min(top_k, len(documents))))
+    except httpx.TimeoutException as e:
+        print(f"[rerank_qwen] Timeout error, falling back to original order")
         return list(range(min(top_k, len(documents))))
     except (KeyError, IndexError) as e:
         print(f"[rerank_qwen] Unexpected API response: {e}, falling back")
         return list(range(min(top_k, len(documents))))
     except Exception as e:
-        print(f"[rerank_qwen] Unexpected error: {e}, falling back")
+        print(f"[rerank_qwen] Unexpected error: {type(e).__name__}: {e}, falling back")
         return list(range(min(top_k, len(documents))))
 
 
 # ========== Utility Functions ==========
 
-def validate_embedding_dimension(embeddings: List[List[float]], expected_dim: int = 3840):
+def validate_embedding_dimension(embeddings: List[List[float]], expected_dim: int = None):
     """
     Validate that embeddings have the expected dimension.
-    Qwen3-Embedding-4B produces 3840-dimensional vectors.
+    Qwen3-Embedding-4B produces 3840-dimensional vectors by default.
     """
+    expected = expected_dim or EXPECTED_EMBEDDING_DIM
     for i, emb in enumerate(embeddings):
-        if len(emb) != expected_dim:
+        if len(emb) != expected:
             raise ValueError(
-                f"Embedding {i} has dimension {len(emb)}, expected {expected_dim}"
+                f"Embedding {i} has dimension {len(emb)}, expected {expected}"
             )
 
 
 async def batch_embed_catalog(
     texts: List[str],
-    batch_size: int = 32
+    batch_size: int = None
 ) -> List[List[float]]:
     """
     Embed large lists in batches to avoid timeout/memory issues.
     
     Args:
         texts: List of texts to embed
-        batch_size: Number of texts per batch
+        batch_size: Number of texts per batch (uses BATCH_SIZE env var if None)
         
     Returns:
         Concatenated list of all embeddings
     """
+    batch_size = batch_size or BATCH_SIZE
     all_embeddings = []
     
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
-        embeddings = await embed_catalog(batch)
-        all_embeddings.extend(embeddings)
+        try:
+            embeddings = await embed_catalog(batch)
+            all_embeddings.extend(embeddings)
+        except Exception as e:
+            print(f"[batch_embed_catalog] Batch {i//batch_size} failed: {e}")
+            # Add zero vectors as fallback for failed batch
+            all_embeddings.extend([[0.0] * EXPECTED_EMBEDDING_DIM for _ in batch])
     
     return all_embeddings

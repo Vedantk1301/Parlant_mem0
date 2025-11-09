@@ -34,6 +34,25 @@
           "journey_paths": {}
         }
       ]
+    },
+    {
+      "id": "PLUH9T9XWN",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:08:52.988630+00:00",
+      "customer_id": "guest",
+      "agent_id": "STBjHVSUpS",
+      "mode": "auto",
+      "title": "New Conversation",
+      "consumption_offsets": {
+        "client": 0
+      },
+      "agent_states": [
+        {
+          "correlation_id": "RPrEtYrBdu9::process",
+          "applied_guideline_ids": [],
+          "journey_paths": {}
+        }
+      ]
     }
   ],
   "events": [
@@ -1804,6 +1823,258 @@
       "kind": "status",
       "offset": 61,
       "correlation_id": "RRBqjNC0Ple::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "lNHoPOZvhP",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:08:53.031864+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "customer",
+      "kind": "message",
+      "offset": 0,
+      "correlation_id": "RPrEtYrBdu9",
+      "data": {
+        "message": "Hello",
+        "participant": {
+          "id": "guest",
+          "display_name": "Guest"
+        },
+        "flagged": false,
+        "tags": []
+      },
+      "deleted": false
+    },
+    {
+      "id": "sgs82Vt6ME",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:08:53.047045+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 1,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "acknowledged",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "3CYaZeRJOH",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:06.717667+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 2,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "MFz7m7K6F6",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:11.895469+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 3,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "message": "Hey there!",
+        "participant": {
+          "id": "STBjHVSUpS",
+          "display_name": "MuseBot"
+        },
+        "tags": [
+          "__preamble__"
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "K2w2oy5rkI",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:11.908128+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 4,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "mClAkAy0IM",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:13.619105+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 5,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Interpreting"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "IFu1nszFXy",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:17.663886+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 6,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Thinking"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "1NlnouBOI4",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:19.817525+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 7,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Fetching data"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "aNWL3OQsdR",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:27.158520+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "tool",
+      "offset": 8,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "tool_calls": [
+          {
+            "tool_id": "built-in:quick_greeting_check",
+            "arguments": {},
+            "result": {
+              "data": {
+                "user_name": null,
+                "preference": null,
+                "trends": [
+                  "Layering pieces",
+                  "Earth tones",
+                  "Cozy knits"
+                ],
+                "is_returning": false
+              },
+              "metadata": {},
+              "control": {},
+              "canned_responses": [],
+              "canned_response_fields": {}
+            }
+          }
+        ]
+      },
+      "deleted": false
+    },
+    {
+      "id": "jOkQiI02lk",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:27.170016+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 9,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "processing",
+        "data": {
+          "stage": "Fetching data"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "x6afByjqGu",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:32.202384+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 10,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "typing",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "CoP6wCfp57",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:36.639045+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "message",
+      "offset": 11,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "message": "I'm MuseBot—your fashion sidekick! Trending now: Layering pieces and Earth tones. What should I call you? How can I help with your style today?",
+        "participant": {
+          "id": "STBjHVSUpS",
+          "display_name": "MuseBot"
+        }
+      },
+      "deleted": false
+    },
+    {
+      "id": "CpiMeziutt",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:36.653116+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 12,
+      "correlation_id": "RPrEtYrBdu9::process",
+      "data": {
+        "status": "ready",
+        "data": {}
+      },
+      "deleted": false
+    },
+    {
+      "id": "2IzQ6kXWhH",
+      "version": "0.6.0",
+      "creation_utc": "2025-11-09T05:09:36.660009+00:00",
+      "session_id": "PLUH9T9XWN",
+      "source": "ai_agent",
+      "kind": "status",
+      "offset": 13,
+      "correlation_id": "RPrEtYrBdu9::process",
       "data": {
         "status": "ready",
         "data": {}
@@ -3856,6 +4127,236 @@
                   "output_tokens": 222,
                   "extra": {
                     "cached_input_tokens": 12288
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "M8Eggnlvpz",
+      "version": "0.6.0",
+      "session_id": "PLUH9T9XWN",
+      "correlation_id": "RPrEtYrBdu9::process",
+      "message_generations": [
+        {
+          "generations": [
+            {
+              "schema_name": "CannedResponseDraftSchema",
+              "model": "openai/gpt-4.1",
+              "duration": 4.426122665405273,
+              "usage": {
+                "input_tokens": 2994,
+                "output_tokens": 415,
+                "extra": {
+                  "cached_input_tokens": 0
+                }
+              }
+            }
+          ],
+          "generation_names": [
+            "draft"
+          ],
+          "messages": [
+            "I'm MuseBot—your fashion sidekick! Trending now: Layering pieces and Earth tones. What should I call you? How can I help with your style today?"
+          ]
+        }
+      ],
+      "preparation_iterations": [
+        {
+          "guideline_matches": [
+            {
+              "guideline_id": "A70PXwk8BD",
+              "condition": "The conversation has exactly ONE message from the customer AND zero messages from the agent",
+              "action": "This is the first interaction! IMMEDIATELY do this:\n\n1. Call quick_greeting_check tool\n2. Based on the result:\n   - If is_returning is true and user_name exists:\n     * Greet warmly by their name with excitement\n     * Mention one trend from the trends array\n     * Ask what brings them today\n     * Example: 'Hey Arjun! Welcome back! Currently loving: Layering pieces and Earth tones. What is on your mind today?'\n\n   - If is_returning is false (new user):\n     * Give warm introduction as MuseBot\n     * Mention two trends from the trends array\n     * Ask their name casually\n     * Example: 'Hey there! I am MuseBot—your fashion sidekick! Trending now: Layering pieces and Earth tones. What should I call you?'\n\n3. Then naturally address their original message in the next sentence\n\nRULES:\n- Keep greeting to MAX 2 sentences before addressing their message\n- Be warm but brief\n- Use trends data from the tool response\n- If they said Hello or Hi, acknowledge it casually then ask how you can help\n- If they asked a product question, answer it after the greeting",
+              "score": 10,
+              "rationale": "The interaction consists of a single message from the customer and no messages from the agent, indicating that this is the first interaction."
+            }
+          ],
+          "tool_calls": [
+            {
+              "tool_id": "built-in:quick_greeting_check",
+              "arguments": {},
+              "result": {
+                "data": {
+                  "user_name": null,
+                  "preference": null,
+                  "trends": [
+                    "Layering pieces",
+                    "Earth tones",
+                    "Cozy knits"
+                  ],
+                  "is_returning": false
+                },
+                "metadata": {},
+                "control": {},
+                "canned_responses": [],
+                "canned_response_fields": {}
+              }
+            }
+          ],
+          "terms": [],
+          "context_variables": [],
+          "generations": {
+            "guideline_match": {
+              "total_duration": 15.081852912902832,
+              "batches": [
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 3.825183391571045,
+                  "usage": {
+                    "input_tokens": 2641,
+                    "output_tokens": 64,
+                    "extra": {
+                      "cached_input_tokens": 0
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 14.610435247421265,
+                  "usage": {
+                    "input_tokens": 2682,
+                    "output_tokens": 68,
+                    "extra": {
+                      "cached_input_tokens": 2432
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 13.853155851364136,
+                  "usage": {
+                    "input_tokens": 2723,
+                    "output_tokens": 86,
+                    "extra": {
+                      "cached_input_tokens": 2432
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 6.2582361698150635,
+                  "usage": {
+                    "input_tokens": 2890,
+                    "output_tokens": 81,
+                    "extra": {
+                      "cached_input_tokens": 2432
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 15.066301345825195,
+                  "usage": {
+                    "input_tokens": 2744,
+                    "output_tokens": 84,
+                    "extra": {
+                      "cached_input_tokens": 2432
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 14.055658340454102,
+                  "usage": {
+                    "input_tokens": 2678,
+                    "output_tokens": 66,
+                    "extra": {
+                      "cached_input_tokens": 2432
+                    }
+                  }
+                },
+                {
+                  "schema_name": "GenericActionableGuidelineMatchesSchema",
+                  "model": "openai/gpt-4o-2024-08-06",
+                  "duration": 11.650543928146362,
+                  "usage": {
+                    "input_tokens": 2835,
+                    "output_tokens": 76,
+                    "extra": {
+                      "cached_input_tokens": 2432
+                    }
+                  }
+                }
+              ]
+            },
+            "tool_calls": [
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 5.6995320320129395,
+                "usage": {
+                  "input_tokens": 5453,
+                  "output_tokens": 210,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 5.295411109924316,
+                "usage": {
+                  "input_tokens": 5470,
+                  "output_tokens": 355,
+                  "extra": {
+                    "cached_input_tokens": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "guideline_matches": [
+            {
+              "guideline_id": "A70PXwk8BD",
+              "condition": "The conversation has exactly ONE message from the customer AND zero messages from the agent",
+              "action": "This is the first interaction! IMMEDIATELY do this:\n\n1. Call quick_greeting_check tool\n2. Based on the result:\n   - If is_returning is true and user_name exists:\n     * Greet warmly by their name with excitement\n     * Mention one trend from the trends array\n     * Ask what brings them today\n     * Example: 'Hey Arjun! Welcome back! Currently loving: Layering pieces and Earth tones. What is on your mind today?'\n\n   - If is_returning is false (new user):\n     * Give warm introduction as MuseBot\n     * Mention two trends from the trends array\n     * Ask their name casually\n     * Example: 'Hey there! I am MuseBot—your fashion sidekick! Trending now: Layering pieces and Earth tones. What should I call you?'\n\n3. Then naturally address their original message in the next sentence\n\nRULES:\n- Keep greeting to MAX 2 sentences before addressing their message\n- Be warm but brief\n- Use trends data from the tool response\n- If they said Hello or Hi, acknowledge it casually then ask how you can help\n- If they asked a product question, answer it after the greeting",
+              "score": 10,
+              "rationale": "The interaction consists of a single message from the customer and no messages from the agent, indicating that this is the first interaction."
+            }
+          ],
+          "tool_calls": [],
+          "terms": [],
+          "context_variables": [],
+          "generations": {
+            "guideline_match": {
+              "total_duration": 0.0,
+              "batches": []
+            },
+            "tool_calls": [
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 3.568362236022949,
+                "usage": {
+                  "input_tokens": 5624,
+                  "output_tokens": 194,
+                  "extra": {
+                    "cached_input_tokens": 4096
+                  }
+                }
+              },
+              {
+                "schema_name": "SingleToolBatchSchema",
+                "model": "openai/gpt-4o-2024-11-20",
+                "duration": 5.011202573776245,
+                "usage": {
+                  "input_tokens": 5641,
+                  "output_tokens": 391,
+                  "extra": {
+                    "cached_input_tokens": 4096
                   }
                 }
               }
