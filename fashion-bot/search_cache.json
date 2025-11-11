@@ -1,0 +1,335 @@
+{
+  "{\"query\": \"Oversized Denim Jackets\", \"user_id\": \"guest\"}": {
+    "ts": 1762806070.3578966,
+    "val": {
+      "original_query": "Oversized Denim Jackets",
+      "search_type": "discovery",
+      "search_queries": [
+        "oversized denim jacket outfit ideas",
+        "best oversized denim jackets 2024",
+        "denim jacket styling for men and women",
+        "casual vs. smart denim jacket looks"
+      ],
+      "total_products_found": 6,
+      "products": [
+        {
+          "product_id": "dhruvkapoor.com#padded-denim-jacket",
+          "title": "padded denim jacket",
+          "brand": "dhruvkapoor",
+          "category": "oversized denim jackets",
+          "price_inr": 34000.0,
+          "in_stock": true,
+          "colors_available": [],
+          "sizes_available": [
+            "it44",
+            "it46",
+            "it48",
+            "it50",
+            "it52"
+          ],
+          "description": "",
+          "score": 0.72753865,
+          "from_query": "oversized denim jacket outfit ideas"
+        },
+        {
+          "product_id": "dhruvkapoor.com#diy-oversized-denim-jacket",
+          "title": "diy oversized denim jacket",
+          "brand": "dhruvkapoor",
+          "category": "oversized denim jackets",
+          "price_inr": 23500.0,
+          "in_stock": true,
+          "colors_available": [],
+          "sizes_available": [
+            "it44",
+            "it46",
+            "it48",
+            "it50",
+            "it52"
+          ],
+          "description": "",
+          "score": 0.7079259,
+          "from_query": "oversized denim jacket outfit ideas"
+        },
+        {
+          "product_id": "thehouseofrare.com#tycho-mens-jacket-blue",
+          "title": "rare rabbit men's tycho blue cotton plain oversized fit full sleeve spread collar jacket",
+          "brand": "thehouseofrare",
+          "category": "women's denim jackets",
+          "price_inr": 3211.0,
+          "in_stock": true,
+          "colors_available": [
+            "blue"
+          ],
+          "sizes_available": [
+            "xs-36",
+            "s-38",
+            "m-40",
+            "l-42",
+            "xl-44",
+            "xxl-46",
+            "3xl-48"
+          ],
+          "description": "",
+          "score": 0.75535506,
+          "from_query": "denim jacket styling for men and women"
+        },
+        {
+          "product_id": "hiphopclothingindia.com#denim-jacket-indigo-contrast-stitch-utility-jacket",
+          "title": "denim jacket- indigo contrast-stitch utility jacket",
+          "brand": "hiphopclothingindia",
+          "category": "classic denim jackets",
+          "price_inr": null,
+          "in_stock": false,
+          "colors_available": [],
+          "sizes_available": [],
+          "description": "",
+          "score": 0.6979957,
+          "from_query": "oversized denim jacket outfit ideas"
+        },
+        {
+          "product_id": "www.urbanmonkey.com#denim-jacket",
+          "title": "denim jacket // 001",
+          "brand": "urbanmonkey",
+          "category": "patch denim jackets",
+          "price_inr": 2200.0,
+          "in_stock": false,
+          "colors_available": [],
+          "sizes_available": [],
+          "description": "",
+          "score": 0.8001025,
+          "from_query": "denim jacket styling for men and women"
+        },
+        {
+          "product_id": "thehouseofrare.com#gympie-womens-jacket-dark-tan",
+          "title": "rareism women's gympie dark tan tweed spread collar plain cuffed sleeve regular fit jacket",
+          "brand": "thehouseofrare",
+          "category": "women's denim jackets",
+          "price_inr": 4344.0,
+          "in_stock": true,
+          "colors_available": [
+            "dark tan"
+          ],
+          "sizes_available": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "xxl"
+          ],
+          "description": "",
+          "score": 0.6621417,
+          "from_query": "casual vs. smart denim jacket looks"
+        }
+      ],
+      "user_gender": "unknown",
+      "intent_reasoning": "User is seeking broad exploration of oversized denim jackets, a topwear item, without a specific item or pairing; provide diverse, style-focused options."
+    }
+  },
+  "{\"query\": \"Pair red or maroon polo t-shirt with trousers or chinos for office look\", \"user_id\": \"guest\"}": {
+    "ts": 1762806220.0723703,
+    "val": {
+      "original_query": "Pair red or maroon polo t-shirt with trousers or chinos for office look",
+      "search_type": "pairing",
+      "search_queries": [
+        "red polo shirt with navy chinos for office look",
+        "maroon polo tee with beige trousers outfit",
+        "red polo shirt pairing with black dress trousers for formal office",
+        "maroon polo shirt with grey chinos outfit with shoes"
+      ],
+      "total_products_found": 10,
+      "products": [
+        {
+          "product_id": "cultstore.com#colourblock-active-polo-t-shirt-601740",
+          "title": "colourblock active polo t-shirt",
+          "brand": "cultstore",
+          "category": "work polo shirts",
+          "price_inr": 859.0,
+          "in_stock": false,
+          "colors_available": [],
+          "sizes_available": [],
+          "description": "",
+          "score": 0.69946605,
+          "from_query": "red polo shirt with navy chinos for office look"
+        },
+        {
+          "product_id": "thehouseofrare.com#store-uni-t-w-womens-maroon-polo",
+          "title": "women's store-uni-t-w maroon polo",
+          "brand": "thehouseofrare",
+          "category": "women's work shirts",
+          "price_inr": 100.0,
+          "in_stock": true,
+          "colors_available": [
+            "maroon"
+          ],
+          "sizes_available": [
+            "xxs-34",
+            "l-42"
+          ],
+          "description": "",
+          "score": 0.6680586,
+          "from_query": "maroon polo shirt with grey chinos outfit with shoes"
+        },
+        {
+          "product_id": "thehouseofrare.com#row-mens-polo-red",
+          "title": "rare rabbit men's row red cotton plain regular fit half sleeve polo",
+          "brand": "thehouseofrare",
+          "category": "solid color polos",
+          "price_inr": 2554.0,
+          "in_stock": true,
+          "colors_available": [
+            "red"
+          ],
+          "sizes_available": [
+            "s-38",
+            "m-40",
+            "l-42",
+            "xl-44",
+            "xxl-46",
+            "3xl-48"
+          ],
+          "description": "",
+          "score": 0.697986,
+          "from_query": "red polo shirt with navy chinos for office look"
+        },
+        {
+          "product_id": "trapin.co#beige-striped-polo-t-shirt",
+          "title": "beige striped polo tshirt",
+          "brand": "trapin",
+          "category": "striped polo shirts",
+          "price_inr": 1490.0,
+          "in_stock": true,
+          "colors_available": [
+            "beige weight - 220-230 grams fit - regular collar - polo neck"
+          ],
+          "sizes_available": [
+            "XL"
+          ],
+          "description": "",
+          "score": 0.67348343,
+          "from_query": "maroon polo tee with beige trousers outfit"
+        },
+        {
+          "product_id": "thehouseofrare.com#pyer-mens-polo-red",
+          "title": "rare rabbit men's pyer red flat knit plain regular fit full sleeve polo",
+          "brand": "thehouseofrare",
+          "category": "solid color polos",
+          "price_inr": 2319.0,
+          "in_stock": true,
+          "colors_available": [
+            "red"
+          ],
+          "sizes_available": [
+            "s-38",
+            "m-40",
+            "l-42",
+            "xl-44",
+            "xxl-46"
+          ],
+          "description": "",
+          "score": 0.69575423,
+          "from_query": "red polo shirt with navy chinos for office look"
+        },
+        {
+          "product_id": "thehouseofrare.com#kace-mens-polo-beige",
+          "title": "rare rabbit men's kace beige cotton plain oversized fit half sleeve polo",
+          "brand": "thehouseofrare",
+          "category": "solid color polos",
+          "price_inr": 1763.0,
+          "in_stock": true,
+          "colors_available": [
+            "beige"
+          ],
+          "sizes_available": [
+            "xs-36",
+            "s-38",
+            "m-40",
+            "l-42",
+            "xl-44",
+            "xxl-46"
+          ],
+          "description": "",
+          "score": 0.6667328,
+          "from_query": "maroon polo tee with beige trousers outfit"
+        },
+        {
+          "product_id": "dhruvkapoor.com#oversized-polo-coord-set",
+          "title": "oversized polo coord set",
+          "brand": "dhruvkapoor",
+          "category": "oversized top sets",
+          "price_inr": 26000.0,
+          "in_stock": false,
+          "colors_available": [],
+          "sizes_available": [],
+          "description": "",
+          "score": 0.680898,
+          "from_query": "maroon polo tee with beige trousers outfit"
+        },
+        {
+          "product_id": "thehouseofrare.com#markas-mens-suits-black",
+          "title": "rare rabbit men's markas black polyester striped print tailored fit full sleeve lapel neck suits",
+          "brand": "thehouseofrare",
+          "category": "modern fit single breasted",
+          "price_inr": 10999.0,
+          "in_stock": true,
+          "colors_available": [
+            "black"
+          ],
+          "sizes_available": [
+            "s-38",
+            "m-40",
+            "l-42",
+            "xl-44",
+            "xxl-46"
+          ],
+          "description": "",
+          "score": 0.68382263,
+          "from_query": "red polo shirt pairing with black dress trousers for formal office"
+        },
+        {
+          "product_id": "pantproject.com#boss-grey-2-piece-suit",
+          "title": "boss grey 2 piece suit",
+          "brand": "pantproject",
+          "category": "grey suits",
+          "price_inr": 5995.0,
+          "in_stock": true,
+          "colors_available": [],
+          "sizes_available": [
+            "38",
+            "40",
+            "42",
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "description": "",
+          "score": 0.65228593,
+          "from_query": "maroon polo shirt with grey chinos outfit with shoes"
+        },
+        {
+          "product_id": "pantproject.com#tuxedo-black-2-pieice-suit-1",
+          "title": "tuxedo black 2 piece suit",
+          "brand": "pantproject",
+          "category": "single-breasted tuxedos",
+          "price_inr": 5995.0,
+          "in_stock": true,
+          "colors_available": [],
+          "sizes_available": [
+            "38",
+            "40",
+            "42",
+            "44",
+            "46",
+            "50"
+          ],
+          "description": "",
+          "score": 0.6880985,
+          "from_query": "red polo shirt pairing with black dress trousers for formal office"
+        }
+      ],
+      "user_gender": "unknown",
+      "intent_reasoning": "User seeks complementary bottomwear and footwear options to pair with a red/maroon polo t-shirt for an office look."
+    }
+  }
+}

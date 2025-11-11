@@ -1,202 +1,6 @@
 {
   "guideline_evaluations_3.0.3": [
     {
-      "id": "28430f00354525a6ff0cda94d5c8ec60",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": true,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer responds to the style-related question or request for style help",
-          "agent_action": "The agent gracefully redirects the conversation with personality, keeping it light and friendly"
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "32ef278daed2fbea57c4bb172d90ab3a",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "d7135a031bf281bbeb5e1fa60e1bc744",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": true,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "2103f3846f50b6171c353ef4baa749fa",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "577191fdbb82b408113319634bfe6d04",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer responds to the engaging question",
-          "agent_action": "The agent uses generate_product_presentation for personalized descriptions, includes product details, presents 5 to 8 products, and ends with one engaging question."
-        },
-        "agent_intention_condition": "You are likely to present products based on search results",
-        "internal_action": null
-      }
-    },
-    {
-      "id": "eb3e709a546fbf17d5045287758b21b9",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer provides their name or what brings them today.",
-          "agent_action": "The agent calls the quick_greeting_check tool, greets the customer warmly, mentions trends, and asks for their name or what brings them today."
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "f6c1127d318be195cbbf17c04524608f",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer provides a response to the clarifying question if asked.",
-          "agent_action": "The agent follows the flow, including calling intelligent_query_analyzer, asking a clarifying question if needed, redirecting if off_topic, saving user preferences, and conducting product search or outfit advice steps."
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "171947527d7b5793301f74ee132ceebd",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "baeee54b72853aab177bea1006735564",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": true,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "841b6191a0f89facdc45fb459351150b",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "8b6eda6074aa977b617c803383a1538a",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": true,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "0cd7a30b66cd0b8d75d1b233bdd4883b",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": true,
-          "customer_action": "The customer provides their name or what brings them today",
-          "agent_action": "The agent calls the quick_greeting_check tool, greets the customer warmly, mentions trends, and asks the customer what brings them today or their name, then addresses their original message."
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "1da3392992e7063aee9b7e846472e838",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": true,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
-      "id": "b4761064c3d09e8656f2f81eac0f0743",
-      "version": "3.0.3",
-      "properties": {
-        "continuous": false,
-        "customer_dependent_action_data": {
-          "is_customer_dependent": false,
-          "customer_action": "",
-          "agent_action": ""
-        },
-        "agent_intention_condition": null,
-        "internal_action": null
-      }
-    },
-    {
       "id": "37ab3e2e9b9848ecf369211257a39346",
       "version": "3.0.3",
       "properties": {
@@ -211,7 +15,7 @@
       }
     },
     {
-      "id": "e158896ba5badff08edb5e052dba6a1d",
+      "id": "d984dbbe5427959c70ec20f87b6713bd",
       "version": "3.0.3",
       "properties": {
         "continuous": false,
@@ -225,7 +29,7 @@
       }
     },
     {
-      "id": "e7cc3a9d58ff16782e70e8dc4529c72a",
+      "id": "8c408e6912fad524d0523a1e1cde2806",
       "version": "3.0.3",
       "properties": {
         "continuous": false,
@@ -239,14 +43,168 @@
       }
     },
     {
-      "id": "3f45ab05200ec65575bea2db54a7859c",
+      "id": "fa4ce9b9f77ccdad751528a9cfdc6ca9",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "ecb5fb0320f9156e839d23ed2ba54f80",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "93972c6102b29a6648f0141d5ef4d10f",
       "version": "3.0.3",
       "properties": {
         "continuous": false,
         "customer_dependent_action_data": {
           "is_customer_dependent": true,
           "customer_action": "The customer provides their name",
-          "agent_action": "The agent calls quick_greeting_check tool, greets warmly by name if returning, mentions trends, introduces as MuseBot if not returning, asks for the customer's name, and addresses the original message."
+          "agent_action": "The agent calls quick_greeting_check_local tool, greets warmly by name if is_returning=true and user_name exists, mentions one trend if is_returning=true, introduces as MuseBot if is_returning=false, mentions two trends if is_returning=false, asks for the customer's name if is_returning=false, and addresses the customer's original message."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "39315cab47f28ab386c4af8a34031ebf",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": false,
+          "customer_action": "",
+          "agent_action": ""
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "26a2cdd5906cb2d28f75c7eecc6f747f",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer responds to the clarifying questions.",
+          "agent_action": "The agent acknowledges the lack of results, suggests trying a broader query, offers trending alternatives, asks clarifying questions, and stays positive."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "c02104d37b450b922e7ee75647b7eca0",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides information about the occasion or vibe they are going for.",
+          "agent_action": "The agent politely redirects with personality, responds with 'Haha, I'm all about fashion! 👗👔✨ But I can help you find something perfect to wear. What's the occasion or vibe you're going for?' 🎨, and keeps it light, friendly, guiding back to fashion."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "4d967f16ec3cab6c36089e0fa1153968",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides their name and indicates if they are looking for men's or women's fashion.",
+          "agent_action": "The agent calls quick_greeting_check_local, greets the customer, mentions trends, asks for the customer's name, asks if they are looking for men's or women's fashion, and addresses the customer's original message."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "2a46033cb452738b7066162212189569",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides a response to the engaging follow-up or shares a preference.",
+          "agent_action": "The agent calls smart_multi_query_search_local with the user's query, generates a conversational response with the results, presents 3-4 products with details, uses emojis naturally, mentions the total available, asks an engaging follow-up, and calls save_user_profile_local if the user shared a preference."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "a075848d090bf877f03943de98216ec7",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides feedback or preferences, or responds to questions about changes.",
+          "agent_action": "The agent engages naturally, calls smart_multi_query_search_local if more is wanted, celebrates positive feedback, asks what to change if feedback is negative, and saves preferences if mentioned."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "a992f357b5a48e85f1743d65fc4fd8e0",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer responds to the clarifying questions or engages with the suggestions.",
+          "agent_action": "The agent acknowledges the lack of results, suggests trying a broader query, offers trending alternatives, asks clarifying questions, and stays positive."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "d15e4c874edd001e6e50a34ebe4b4df5",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": true,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides feedback or preferences, such as indicating what they want more of, giving positive feedback, or specifying changes they want.",
+          "agent_action": "The agent engages naturally, calls smart_fashion_search_local with a refined query if the customer wants more, celebrates positive feedback, asks what to change if feedback is negative, and saves preferences if mentioned."
+        },
+        "agent_intention_condition": null,
+        "internal_action": null
+      }
+    },
+    {
+      "id": "51d806bf304e3f2eb0d7bfb3f76edc0e",
+      "version": "3.0.3",
+      "properties": {
+        "continuous": false,
+        "customer_dependent_action_data": {
+          "is_customer_dependent": true,
+          "customer_action": "The customer provides their query and shares any preferences.",
+          "agent_action": "The agent calls smart_fashion_search_local with the customer's query, determines intent, uses cache, returns search_type and reasoning, calls generate_conversational_response_local with results, presents results with product details and emojis, emphasizes complementary nature or variety based on search_type, mentions total available, asks engaging follow-up, and calls save_user_profile_local if the user shared a preference."
         },
         "agent_intention_condition": null,
         "internal_action": null

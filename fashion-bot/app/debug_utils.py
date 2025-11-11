@@ -351,13 +351,15 @@ def safe_json_loads(text: str, default: Any = None) -> Any:
         # Try cleaning markdown
         try:
             cleaned = text.strip()
-            if cleaned.startswith("```json"):
-                cleaned = cleaned[7:]
-            elif cleaned.startswith("```"):
-                cleaned = cleaned[3:]
+            prefixes = ("```json", "```jsonc", "```")
+            for pref in prefixes:
+                if cleaned.startswith(pref):
+                    cleaned = cleaned[len(pref):]
+                    break
             if cleaned.endswith("```"):
                 cleaned = cleaned[:-3]
             cleaned = cleaned.strip()
+
             
             return json.loads(cleaned)
         except json.JSONDecodeError as e2:

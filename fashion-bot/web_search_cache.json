@@ -1,0 +1,53 @@
+{
+  "{\"allowed_domains\": [\"vogue.in\", \"gqindia.com\", \"lifestyleasia.com\", \"timesofindia.indiatimes.com\", \"thehindu.com\", \"moneycontrol.com\", \"fashionnetwork.com\", \"ndtv.com\", \"mensxp.com\"], \"city\": null, \"country\": \"IN\", \"prompt\": \"List 6 concise fashion trends in INDIA (Nov 04-Nov 11, 2025). Mix: ethnic, western, streetwear, athleisure, formal, footwear, accessories. One sentence each.\"}": {
+    "ts": 1762804321.4277604,
+    "val": {
+      "text": "",
+      "sources": [
+        {
+          "title": "Deepika Padukone’s new Sabyasachi look is a cultural moment - The Times of India",
+          "url": "https://timesofindia.indiatimes.com/life-style/fashion/celeb-style/deepika-padukones-new-sabyasachi-look-is-a-cultural-moment/articleshow/125180024.cms?utm_source=openai"
+        },
+        {
+          "title": "Gen Z Fashion Trends: Embracing Indian Heritage in Modern Style | - Times of India",
+          "url": "https://timesofindia.indiatimes.com/life-style/fashion/style-guide/gen-z-fashion-trends-embracing-indian-heritage-in-modern-style/amp_articleshow/112525221.cms?utm_source=openai"
+        },
+        {
+          "title": "From glass hair to gold-dusted buns: Best festive hair trends of 2025 - The Times of India",
+          "url": "https://timesofindia.indiatimes.com/life-style/beauty/from-glass-hair-to-gold-dusted-buns-best-festive-hair-trends-of-2025/articleshow/124830099.cms?utm_source=openai"
+        }
+      ]
+    }
+  },
+  "{\"allowed_domains\": [\"vogue.com\", \"wwd.com\", \"businessoffashion.com\", \"highsnobiety.com\", \"hypebeast.com\", \"theimpression.com\", \"harpersbazaar.com\", \"elle.com\", \"gq.com\", \"whowhatwear.com\"], \"city\": null, \"country\": null, \"prompt\": \"List 6 concise GLOBAL fashion trends (Nov 04-Nov 11, 2025). Cover runway, high-street, streetwear, footwear, accessories. Mention brands. One sentence each.\"}": {
+    "ts": 1762804321.744701,
+    "val": {
+      "text": "",
+      "sources": [
+        {
+          "title": "11 Fall 2025 Fashion Trends to Add to Your Wardrobe Now | Vogue",
+          "url": "https://www.vogue.com/article/fall-winter-2025-fashion-trends/?utm_source=openai"
+        },
+        {
+          "title": "From Toy Trinkets on Bags to Nosferatu Collars on Jackets and Coats-These Were the 11 Street Style Trends of the Fall 2025 Season",
+          "url": "https://www.vogue.com/article/from-toy-trinkets-on-bags-to-nosferatu-collars-on-jackets-and-coats-these-were-the-11-street-style-trends-of-the-fall-2025-season?utm_source=openai"
+        },
+        {
+          "title": "Sheer Layers, Denim Shackets, and Mary Janes-Gucci's Cruise Collection Confirms the Staying Power of These Trends",
+          "url": "https://www.vogue.com/article/gucci-cruise-collection-2025-trends?utm_source=openai"
+        },
+        {
+          "title": "From Teddy Charms to Bunny Slippers: Behind Fashion’s Cuteness Craze | BoF",
+          "url": "https://www.businessoffashion.com/articles/marketing-pr/from-teddy-charms-to-bunny-slippers-behind-fashions-cuteness-craze//?utm_source=openai"
+        }
+      ]
+    }
+  },
+  "{\"allowed_domains\": [\"timesofindia.indiatimes.com\", \"indiatoday.in\", \"wikipedia.org\", \"thehindu.com\"], \"city\": null, \"country\": \"IN\", \"prompt\": \"List 8-10 major festivals/holidays in India over next 45 days from 2025-11-11. For each: name, exact date (YYYY-MM-DD), brief fashion tip. Simple bullets.\"}": {
+    "ts": 1762853545.7884312,
+    "val": {
+      "text": "",
+      "sources": []
+    }
+  }
+}
